@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Torna\\source\\repos\\Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application.csproj": {}
+    "C:\\Users\\Torna\\Source\\Repos\\Tornadic\\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Torna\\source\\repos\\Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application.csproj": {
+    "C:\\Users\\Torna\\Source\\Repos\\Tornadic\\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Torna\\source\\repos\\Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application.csproj",
+        "projectUniqueName": "C:\\Users\\Torna\\Source\\Repos\\Tornadic\\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application.csproj",
         "projectName": "Pharmacy-Desktop-Application",
-        "projectPath": "C:\\Users\\Torna\\source\\repos\\Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application.csproj",
+        "projectPath": "C:\\Users\\Torna\\Source\\Repos\\Tornadic\\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application.csproj",
         "packagesPath": "C:\\Users\\Torna\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Torna\\source\\repos\\Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application\\obj\\",
+        "outputPath": "C:\\Users\\Torna\\Source\\Repos\\Tornadic\\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Torna\\AppData\\Roaming\\NuGet\\NuGet.Config",
