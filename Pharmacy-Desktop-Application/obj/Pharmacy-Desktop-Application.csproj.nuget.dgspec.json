@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Torna\\source\\repos\\Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application.csproj": {}
+    "C:\\Users\\willa\\Source\\Repos\\Tornadic\\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Torna\\source\\repos\\Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application.csproj": {
+    "C:\\Users\\willa\\Source\\Repos\\Tornadic\\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Torna\\source\\repos\\Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application.csproj",
+        "projectUniqueName": "C:\\Users\\willa\\Source\\Repos\\Tornadic\\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application.csproj",
         "projectName": "Pharmacy-Desktop-Application",
-        "projectPath": "C:\\Users\\Torna\\source\\repos\\Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application.csproj",
-        "packagesPath": "C:\\Users\\Torna\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Torna\\source\\repos\\Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application\\obj\\",
+        "projectPath": "C:\\Users\\willa\\Source\\Repos\\Tornadic\\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application.csproj",
+        "packagesPath": "C:\\Users\\willa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\willa\\Source\\Repos\\Tornadic\\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Torna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\willa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.413\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
