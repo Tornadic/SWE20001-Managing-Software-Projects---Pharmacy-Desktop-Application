@@ -11,7 +11,7 @@ namespace Pharmacy_Desktop_Application
     /// <summary>
     /// Interaction logic for App.xaml
     /// </summary>
-    /// MEMES ARE BAD FOR PEOPLES BRAINS
+    /// Change in file
     public partial class App : Application
     {
     }
