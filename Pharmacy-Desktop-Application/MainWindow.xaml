@@ -8,5 +8,45 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
 
+        <!--Sets up the grid frame for our page-->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+
+        <TextBox Grid.Column="0" Grid.Row="0">
+            Peoples Health Pharmacy
+        </TextBox>
+        <TextBox Grid.Column="1" Grid.Row="0">
+            Home Page
+        </TextBox>
+        
+        <!-- Navigation bar-->
+        <StackPanel HorizontalAlignment="Left" Grid.Column="0" Grid.Row="1">
+
+            <!--This Home button is here to make daniel.ryan21 happy and will be removed sprint 2... maybe-->
+            <Button x:Name="btnHome" Click="BtnClickHome">Dan's Button</Button>
+
+            <!--product page for adding more products to the database-->
+            <Button x:Name="btnProduct" Click="BtnClickProduct">Product</Button>
+
+            <!--display the sales records/reports of products-->
+            <Button x:Name="btnRecord" Click="BtnClickRecord">Records</Button>
+            
+            <!--display the weekly and monthly predictions of each product-->
+            <Button x:Name="btnPrediction" Click="BtnClickPrediction">Predictions</Button>
+            
+            <!--settings for usability, impletment in sprint 2-->
+            <Button x:Name="btnSettings" Click="BtnClickSettings">Settings</Button>
+        </StackPanel>
+
+        <!--this Main frame is where the pages are displayed-->
+        <Frame x:Name="Main" NavigationUIVisibility="Hidden" Grid.Column="1" Grid.Row="1"/>
+
     </Grid>
 </Window>
