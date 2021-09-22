@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
 C:\Users\willa\Source\Repos\Tornadic\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\Pharmacy-Desktop-Application\App.xaml
-6-124142169
+6560504353
 
-8959031087
+8-1730644493
 1921654412462
-HomePage.xaml;MainWindow.xaml;PredictionPage.xaml;ProductPage.xaml;RecordPage.xaml;SettingsPage.xaml;
+MainWindow.xaml;Pages\HomePage.xaml;Pages\PredictionPage.xaml;Pages\ProductPage.xaml;Pages\RecordPage.xaml;Pages\SettingsPage.xaml;
 
 False
 

@@ -37,7 +37,7 @@
         <TextBlock Grid.Column="0" Grid.Row="3">Product Quanity:</TextBlock>
         <TextBox Grid.Column="1" Grid.Row="3"></TextBox>
 
-        <TextBlock Grid.Column="0" Grid.Row="4">Product Quanity:</TextBlock>
+        <TextBlock Grid.Column="0" Grid.Row="4">Product Description:</TextBlock>
         <TextBox Grid.Column="1" Grid.Row="4"></TextBox>
 
 

@@ -61,7 +61,7 @@ namespace Pharmacy_Desktop_Application {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Pharmacy-Desktop-Application;component/predictionpage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Pharmacy-Desktop-Application;V1.0.0.0;component/predictionpage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\PredictionPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
