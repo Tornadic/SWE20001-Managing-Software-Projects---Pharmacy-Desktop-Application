@@ -12,14 +12,26 @@
         <!--Sets up the grid frame for the page-->
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
+
         </Grid.RowDefinitions>
 
-        <TextBox Name="Content" Grid.Column="0" Grid.Row="0">
-            This the Records Page
-        </TextBox>
+
+        <TextBlock Name="Content" Grid.Column="0" Grid.Row="0">
+           Pick a Record to Display:
+        </TextBlock>
+        <TextBox Grid.Column="1" Grid.Row="0"></TextBox>
+
+        <Button x:Name ="btnProductWeekly" Click="BtnClickWeekly" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Left">Display Weekly</Button>
+        <Button x:Name ="btnProductMonthly" Click="BtnClickMonthly" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Right">Display Monthly</Button>
+
+
 
 
     </Grid>
