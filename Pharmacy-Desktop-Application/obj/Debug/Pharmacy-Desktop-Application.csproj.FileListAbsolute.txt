@@ -47,3 +47,5 @@ C:\Users\jettc\Source\Repos\SWE20001-Managing-Software-Projects---Pharmacy-Deskt
 C:\Users\jettc\Source\Repos\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\Pharmacy-Desktop-Application\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\jettc\Source\Repos\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\Pharmacy-Desktop-Application\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\jettc\Source\Repos\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\Pharmacy-Desktop-Application\obj\Debug\Pharmacy-Desktop-Application.csproj.CopyComplete
+C:\Users\jettc\Source\Repos\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\Pharmacy-Desktop-Application\obj\Debug\Pages\SalesPage.g.cs
+C:\Users\jettc\Source\Repos\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\Pharmacy-Desktop-Application\obj\Debug\Pages\SalesPage.baml

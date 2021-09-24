@@ -32,6 +32,9 @@
             <!--product page for adding more products to the database-->
             <Button x:Name="btnProduct" Click="BtnClickProduct">Product</Button>
 
+            <!--add sales record page for adding sales records to the database-->
+            <Button x:Name="btnAddRecord" Click="BtnAddRecord">Add Sales Record</Button>
+
             <!--display the sales records/reports of products-->
             <Button x:Name="btnRecord" Click="BtnClickRecord">Records</Button>
             

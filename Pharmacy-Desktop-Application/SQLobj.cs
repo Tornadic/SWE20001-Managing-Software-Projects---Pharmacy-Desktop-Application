@@ -40,7 +40,7 @@ namespace Pharmacy_Desktop_Application
                     {
                         string someStringFromColumnZero = reader.GetString(0);
                         string someStringFromColumnOne = reader.GetString(1);
-                        Console.WriteLine(someStringFromColumnZero + "," + someStringFromColumnOne);
+                        //Console.WriteLine(someStringFromColumnZero + "," + someStringFromColumnOne);
                     }
                     dbCon.Close();
                 }
@@ -66,10 +66,12 @@ namespace Pharmacy_Desktop_Application
                             for (int i = 0; i < reader.FieldCount; i++)
                             {
                                 columns.Add(reader.GetString(i));
+                                Console.WriteLine(reader.GetString(i));
                             }
                             queryReturn.Add(columns);
                         }
                     }
+                    catch { Console.WriteLine("QUERY FAILED"); }
                     finally
                     {
                         // Always call Close when done reading.
@@ -84,6 +86,29 @@ namespace Pharmacy_Desktop_Application
                 }                
             }
             return null;
+        }
+
+        public int QueryScalarDB(string query)
+        {
+            if (dbCon.IsConnect())
+            {
+                //suppose col0 and col1 are defined as VARCHAR in the DB
+                var cmd = new MySqlCommand(query, dbCon.Connection);
+                try
+                {
+                    int output = Convert.ToInt32(cmd.ExecuteScalar());
+                    dbCon.Close();
+                    return output;
+                }
+                catch
+                {
+                    Console.WriteLine("QUERY FAILED");
+                    dbCon.Close();
+                    return 0;
+                }
+            }
+            Console.WriteLine("QUERY NOT HAPPY");
+            return 0;
         }
     }
 }
