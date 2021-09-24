@@ -47,5 +47,33 @@ namespace Pharmacy_Desktop_Application
             }
             catch { }
         }        
+
+        public void QueryDB(string query)
+        {
+            if (dbCon.IsConnect())
+            {
+                //suppose col0 and col1 are defined as VARCHAR in the DB
+                var cmd = new MySqlCommand(query, dbCon.Connection);
+                try
+                {
+                    var reader = cmd.ExecuteReader();
+                    try
+                    {
+                        while (reader.Read())
+                        {
+                        }
+                    }
+                    finally
+                    {
+                        // Always call Close when done reading.
+                        reader.Close();
+                    }
+                }
+                catch { Console.WriteLine("QUERY FAILED"); }
+                
+             
+                dbCon.Close();
+            }
+        }
     }
 }

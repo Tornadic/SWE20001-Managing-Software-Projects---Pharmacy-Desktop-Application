@@ -21,19 +21,19 @@ namespace Pharmacy_Desktop_Application
     public partial class MainWindow : Window
     {
         private Uri Source;
-        private SQLobj abc;
 
         public MainWindow()
         {
             InitializeComponent();
             Main.Content = new HomePage(); // sets the homepage to be displayed when the application is open 
-            abc = SQLobj.Instance();
+            
         }
 
 
         private void BtnClickHome(object sender, RoutedEventArgs e)
         {
             Main.Content = new HomePage();
+            var abc = SQLobj.Instance();
             abc.TestConnection();
         }
 

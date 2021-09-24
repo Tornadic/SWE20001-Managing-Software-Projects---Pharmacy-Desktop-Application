@@ -28,17 +28,17 @@
             This the Product Page
         </TextBlock>
 
-        <TextBlock Grid.Column="0" Grid.Row="1">Product ID: </TextBlock>
-        <TextBox Grid.Column="1" Grid.Row="1"></TextBox>
+        <TextBlock Grid.Column="0" Grid.Row="1">Product SKU: </TextBlock>
+        <TextBox x:Name="txtProdSKU" Grid.Column="1" Grid.Row="1"></TextBox>
 
         <TextBlock Grid.Column="0" Grid.Row="2">Product Name:</TextBlock>
-        <TextBox Grid.Column="1" Grid.Row="2"></TextBox>
+        <TextBox x:Name="txtProdName" Grid.Column="1" Grid.Row="2"></TextBox>
 
-        <TextBlock Grid.Column="0" Grid.Row="3">Product Quanity:</TextBlock>
-        <TextBox Grid.Column="1" Grid.Row="3"></TextBox>
+        <TextBlock Grid.Column="0" Grid.Row="3">Product Stock:</TextBlock>
+        <TextBox x:Name="txtProdStock" Grid.Column="1" Grid.Row="3"></TextBox>
 
-        <TextBlock Grid.Column="0" Grid.Row="4">Product Description:</TextBlock>
-        <TextBox Grid.Column="1" Grid.Row="4"></TextBox>
+        <TextBlock Grid.Column="0" Grid.Row="4">Product Price:</TextBlock>
+        <TextBox x:Name="txtProdPrice" Grid.Column="1" Grid.Row="4"></TextBox>
 
 
         <Button x:Name ="btnProductSubmit" Click="BtnClickSubmit" Grid.Column="1" Grid.Row="5" Width="Auto">
