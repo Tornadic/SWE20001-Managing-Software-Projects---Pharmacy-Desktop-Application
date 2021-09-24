@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\jettc\source\repos\Pharmacy1\Pharmacy1\obj\Debug\
+C:\Users\jettc\Source\Repos\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\Pharmacy-Desktop-Application\obj\Debug\
 Pharmacy_Desktop_Application
 none
 false
 DEBUG;TRACE
-C:\Users\jettc\source\repos\Pharmacy1\Pharmacy1\App.xaml
+C:\Users\jettc\Source\Repos\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\Pharmacy-Desktop-Application\App.xaml
 6560504353
 
-11621927645
-13-1505183044
+141865741500
+1351175030304
 MainWindow.xaml;Pages\HomePage.xaml;Pages\PredictionPage.xaml;Pages\ProductPage.xaml;Pages\RecordPage.xaml;Pages\SettingsPage.xaml;
 
-True
+False
 
