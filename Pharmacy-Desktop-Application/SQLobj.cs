@@ -48,7 +48,7 @@ namespace Pharmacy_Desktop_Application
             catch { }
         }        
 
-        public void QueryDB(string query)
+        public List<List<string>> QueryDB(string query)
         {
             if (dbCon.IsConnect())
             {
@@ -57,10 +57,17 @@ namespace Pharmacy_Desktop_Application
                 try
                 {
                     var reader = cmd.ExecuteReader();
+                    List<List<string>> queryReturn = new List<List<string>>();
                     try
                     {
                         while (reader.Read())
                         {
+                            List<string> columns = new List<string>();
+                            for (int i = 0; i < reader.FieldCount; i++)
+                            {
+                                columns.Add(reader.GetString(i));
+                            }
+                            queryReturn.Add(columns);
                         }
                     }
                     finally
@@ -68,12 +75,15 @@ namespace Pharmacy_Desktop_Application
                         // Always call Close when done reading.
                         reader.Close();
                     }
+                    dbCon.Close();
+                    return queryReturn;
                 }
-                catch { Console.WriteLine("QUERY FAILED"); }
-                
-             
-                dbCon.Close();
+                catch { Console.WriteLine("QUERY FAILED");
+                    dbCon.Close();
+                    return null;
+                }                
             }
+            return null;
         }
     }
 }

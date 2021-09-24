@@ -21,12 +21,22 @@ namespace Pharmacy_Desktop_Application
     public partial class MainWindow : Window
     {
         private Uri Source;
+        private List<Product> _products = new List<Product>();
 
         public MainWindow()
         {
             InitializeComponent();
             Main.Content = new HomePage(); // sets the homepage to be displayed when the application is open 
-            
+            var runSQL = SQLobj.Instance();
+            List<List<string>> products = runSQL.QueryDB("SELECT * from PHPProducts");
+            foreach(List<string> product in products)
+            {
+                _products.Add(new Product(product[0], product[1], int.Parse(product[2]), float.Parse(product[3])));
+            }
+            foreach(Product prod in _products)
+            {
+                Console.WriteLine(string.Format("{0} {1} {2} {3}", prod.SKU, prod.Name, prod.Stock, prod.Price));
+            }
         }
 
 
