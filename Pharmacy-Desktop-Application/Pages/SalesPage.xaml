@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:Pharmacy_Desktop_Application"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="DisplaySalesPage">
+      Title="SalesPage">
 
     <Grid Background="White">
         <!--Sets up the grid frame for our page-->
@@ -18,18 +18,39 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
 
         <TextBlock Name="Content" Grid.Column="0" Grid.Row="0">
-            This the Display Sales Page
+            This the Sales Page
         </TextBlock>
 
-        <TextBlock Grid.Column="0" Grid.Row="3">Sale ID:</TextBlock>
-        <TextBox x:Name="txtSaleID" Grid.Column="1" Grid.Row="1"></TextBox>
-        
+        <TextBlock Grid.Column="0" Grid.Row="1">Date:</TextBlock>
+        <DatePicker x:Name="txtSaleDate" Grid.Column="1" Grid.Row="1" DisplayDate="2021-09-24" SelectedDateFormat="Long"></DatePicker>
+
+        <TextBlock Grid.Column="0" Grid.Row="2">Product:</TextBlock>
+        <ComboBox Name="cmxItemProduct" Margin="3,3,3,3" HorizontalAlignment="Stretch" Grid.Column="1" Grid.Row="2" >
+
+        </ComboBox>
+
+        <TextBlock Grid.Column="0" Grid.Row="3">Quantity:</TextBlock>
+        <TextBox x:Name="txtItemQuantity" Grid.Column="1" Grid.Row="3"></TextBox>
+
+        <Button x:Name ="btnItemAdd" Click="BtnItemAdd" Grid.Column="1" Grid.Row="4" Width="Auto">
+            Add Item
+        </Button>
+
         <TextBlock Grid.Column="0" Grid.Row="5">Item List:</TextBlock>
-        <ListBox x:Name="txtItemList" Grid.Column="1" Grid.Row="2"></ListBox>
-        
+        <ListBox x:Name="txtItemList" Grid.Column="1" Grid.Row="5"></ListBox>
+
+        <Button x:Name ="btnSaleSubmit" Click="BtnSaleSubmit" Grid.Column="1" Grid.Row="6" Width="Auto">
+            Add Sale to DataBase
+        </Button>
+
+
     </Grid>
 </Page>
