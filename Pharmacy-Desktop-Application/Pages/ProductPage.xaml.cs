@@ -18,8 +18,6 @@ namespace Pharmacy_Desktop_Application
     /// </summary>
     public partial class ProductPage : Page
     {
-        //TODO Currently this page is only setup to add product to the database
-
         public ProductPage()
         {
             InitializeComponent();
@@ -27,11 +25,11 @@ namespace Pharmacy_Desktop_Application
 
         private void BtnClickSubmit(object sender, RoutedEventArgs e)
         {
-            // this is the onclick listener for the Submit Button on the Product Page
             if (txtProdName.Text != "" && txtProdPrice.Text != "" && txtProdSKU.Text != "" && txtProdStock.Text != "")
             {
                 var runSQL = SQLobj.Instance();
                 runSQL.QueryDB(string.Format("INSERT INTO PHPProducts VALUES ('{0}','{1}','{2}','{3}')", txtProdSKU.Text, txtProdName.Text, txtProdStock.Text, txtProdPrice.Text));
+                NavigationService.Navigate(new ProductSearchPage());
             }
         }
     }

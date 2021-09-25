@@ -18,21 +18,26 @@ namespace Pharmacy_Desktop_Application
     /// </summary>
     public partial class EditProductPage : Page
     {
-        //TODO Currently this page is only setup to add product to the database
+        private Product _product;
 
-        public EditProductPage()
+        public EditProductPage(Product product)
         {
             InitializeComponent();
-        }
-
-        private void BtnClickAdd(object sender, RoutedEventArgs e)
-        {
-
+            _product = product;
+            txtProdSKU.Text = product.SKU;
+            txtProdName.Text = product.Name;
+            txtProdStock.Text = product.Stock.ToString();
+            txtProdPrice.Text = product.Price.ToString();
         }
 
         private void BtnClickSubmit(object sender, RoutedEventArgs e)
         {
-
+            if (txtProdName.Text != "" && txtProdPrice.Text != "" && txtProdSKU.Text != "" && txtProdStock.Text != "")
+            {
+                var runSQL = SQLobj.Instance();
+                runSQL.QueryDB(string.Format("UPDATE PHPProducts SET ProdName = '{0}', ProdStock = '{1}', ProdPrice = '{2}' WHERE ProdSKU = '{3}';", txtProdName.Text, txtProdStock.Text, txtProdPrice.Text, txtProdSKU.Text));
+                NavigationService.Navigate(new ProductSearchPage());
+            }
         }
     }
 }

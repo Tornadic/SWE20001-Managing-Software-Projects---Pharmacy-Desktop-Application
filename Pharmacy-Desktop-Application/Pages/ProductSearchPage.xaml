@@ -15,11 +15,14 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
+        <StackPanel>
+            <Button x:Name="btnAddProduct" Click="BtnClickAddProduct">Add Product</Button>
+            <ListBox x:Name="lsbProducts" MouseDoubleClick="LsbProducts_MouseDoubleClick"/>
+        </StackPanel>
         
-        <TextBox>Im not sure if we need this page, but this would display a list of products, which you can pick to edit Will</TextBox>
-        
-        
-        
+
+
+
     </Grid>
 
     

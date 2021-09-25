@@ -20,9 +20,30 @@ namespace Pharmacy_Desktop_Application
     /// </summary>
     public partial class ProductSearchPage : Page
     {
+        private List<Product> _products = new List<Product>();
         public ProductSearchPage()
         {
             InitializeComponent();
+            var runSQL = SQLobj.Instance();
+            List<List<string>> products = runSQL.QueryDB("SELECT * from PHPProducts");
+            foreach (List<string> product in products)
+            {
+                _products.Add(new Product(product[0], product[1], int.Parse(product[2]), float.Parse(product[3])));
+            }
+            foreach (Product prod in _products)
+            {
+                lsbProducts.Items.Add(prod.SKU + " " + prod.Name + " " + prod.Price + " " + prod.Stock);
+            }
+        }
+
+        private void LsbProducts_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            NavigationService.Navigate(new EditProductPage(_products[lsbProducts.SelectedIndex]));
+        }
+
+        private void BtnClickAddProduct(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new ProductPage());
         }
     }
 }

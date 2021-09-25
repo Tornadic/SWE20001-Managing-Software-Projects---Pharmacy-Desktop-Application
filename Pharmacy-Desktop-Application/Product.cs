@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Pharmacy_Desktop_Application
 {
-    class Product
+    public class Product
     {
         private string _SKU;
         private string _name;

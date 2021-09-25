@@ -20,7 +20,5 @@
         <TextBox Name="Content" Grid.Column="0" Grid.Row="0">
             This the Settings page and will be implemented Sprint 2
         </TextBox>
-
-
     </Grid>
 </Page>

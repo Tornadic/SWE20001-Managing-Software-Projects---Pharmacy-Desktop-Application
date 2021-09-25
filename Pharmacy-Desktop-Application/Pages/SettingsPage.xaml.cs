@@ -22,5 +22,10 @@ namespace Pharmacy_Desktop_Application
         {
             InitializeComponent();
         }
+
+        private void Content_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }

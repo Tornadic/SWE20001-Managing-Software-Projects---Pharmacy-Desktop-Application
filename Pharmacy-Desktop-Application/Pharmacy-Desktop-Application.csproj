@@ -126,9 +126,6 @@
       <DependentUpon>SettingsPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Product.cs" />
-    <Compile Include="Pages\ProductMainPage.xaml.cs">
-      <DependentUpon>ProductMainPage.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Pages\ProductSearchPage.xaml.cs">
       <DependentUpon>ProductSearchPage.xaml</DependentUpon>
     </Compile>
@@ -185,10 +182,6 @@
     <Page Include="Pages\SettingsPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Pages\ProductMainPage.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\ProductSearchPage.xaml">
       <SubType>Designer</SubType>

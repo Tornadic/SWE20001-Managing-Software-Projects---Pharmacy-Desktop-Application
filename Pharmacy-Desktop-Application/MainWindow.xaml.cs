@@ -49,7 +49,7 @@ namespace Pharmacy_Desktop_Application
         // Product Page
         private void BtnClickProduct(object sender, RoutedEventArgs e)
         {
-            Main.Content = new ProductMainPage(); 
+            Main.Content = new ProductSearchPage(); 
         }
 
         // Sales Page
