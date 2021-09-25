@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -14,26 +16,26 @@ using System.Windows.Shapes;
 namespace Pharmacy_Desktop_Application
 {
     /// <summary>
-    /// Interaction logic for RecordPage.xaml
+    /// Interaction logic for EditSalesPage.xaml
     /// </summary>
-    public partial class RecordPage : Page
+    public partial class EditSalesPage : Page
     {
-        public RecordPage()
+        public EditSalesPage()
         {
             InitializeComponent();
         }
 
-        private void BtnClickWeekly(object sender, RoutedEventArgs e)
+        private void BtnClickRevert(object sender, RoutedEventArgs e)
         {
 
         }
 
-        private void BtnClickMonthly(object sender, RoutedEventArgs e)
+        private void BtnSaleSubmit(object sender, RoutedEventArgs e)
         {
 
         }
 
-        private void BtnClickExport(object sender, RoutedEventArgs e)
+        private void BtnItemAdd(object sender, RoutedEventArgs e)
         {
 
         }

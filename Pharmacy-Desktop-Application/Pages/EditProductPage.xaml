@@ -27,12 +27,11 @@
         <TextBlock Name="Content" Grid.Column="0" Grid.Row="0">
             This the Product View/Edit Page
         </TextBlock>
-		<Button x:Name ="btnProductAdd" Click="BtnClickAdd" Grid.Column="1" Grid.Row="0" Width="Auto">
-			Add Product to DataBase
-		</Button>
+        <TextBox x:Name="txtProductLookup" Grid.Column="1" Grid.Row="0">Search Product Here</TextBox>
 
 
-		<TextBlock Grid.Column="0" Grid.Row="1">Product SKU: </TextBlock>
+
+        <TextBlock Grid.Column="0" Grid.Row="1">Product SKU: </TextBlock>
         <TextBox x:Name="txtProdSKU" Grid.Column="1" Grid.Row="1"></TextBox>
 
         <TextBlock Grid.Column="0" Grid.Row="2">Product Name:</TextBlock>
@@ -46,7 +45,7 @@
 
 
         <Button x:Name ="btnProductSubmit" Click="BtnClickSubmit" Grid.Column="1" Grid.Row="5" Width="Auto" Margin="10">
-            Edit Product in DataBase
+            Update Product in DataBase
         </Button>
         
 

@@ -33,10 +33,6 @@ namespace Pharmacy_Desktop_Application
             Main.Content = new HomePage();
         }
 
-        private void BtnClickRecord(object sender, RoutedEventArgs e)
-        {
-            Main.Content = new RecordPage();
-        }
 
         private void BtnClickPrediction(object sender, RoutedEventArgs e)
         {
@@ -48,25 +44,20 @@ namespace Pharmacy_Desktop_Application
             Main.Content = new SettingsPage();
         }
 
-        private void BtnAddRecord(object sender, RoutedEventArgs e)
+
+
+        // Product Page
+        private void BtnClickProduct(object sender, RoutedEventArgs e)
         {
-            Main.Content = new SalesPage();
+            Main.Content = new ProductMainPage(); 
         }
 
-        private void BtnDisplaySalesRecord(object sender, RoutedEventArgs e)
+        // Sales Page
+        private void BtnClickSalePage(object sender, RoutedEventArgs e)
         {
-            Main.Content = new DisplaySalesPage();
-
+            Main.Content = new SalesMainPage(); 
         }
 
-        private void BtnClickEditProduct(object sender, RoutedEventArgs e)
-        {
-            Main.Content = new EditProductPage();
-        }
-
-        private void BtnClickAddProduct(object sender, RoutedEventArgs e)
-        {
-            Main.Content = new ProductPage();
-        }
+        
     }
 }
