@@ -66,7 +66,6 @@ namespace Pharmacy_Desktop_Application
                             for (int i = 0; i < reader.FieldCount; i++)
                             {
                                 columns.Add(reader.GetString(i));
-                                Console.WriteLine(reader.GetString(i));
                             }
                             queryReturn.Add(columns);
                         }

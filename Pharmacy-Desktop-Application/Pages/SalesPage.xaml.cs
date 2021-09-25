@@ -65,6 +65,7 @@ namespace Pharmacy_Desktop_Application
                     runSQL.QueryDB(string.Format("INSERT INTO PHPItemSales (itmSaleProdSKU, itmSaleQuantity, itmSaleRecordID) VALUES ('{0}','{1}','{2}')", prod.Item1.SKU, prod.Item2, salesRecID));
                 }
                 Console.WriteLine("Sales record successfully added");
+                NavigationService.Navigate(new ProductPage());
             }
         }
     }

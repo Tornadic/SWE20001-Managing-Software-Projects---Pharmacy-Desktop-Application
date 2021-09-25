@@ -44,8 +44,6 @@ namespace Pharmacy_Desktop_Application
             Main.Content = new SettingsPage();
         }
 
-
-
         // Product Page
         private void BtnClickProduct(object sender, RoutedEventArgs e)
         {
@@ -55,9 +53,7 @@ namespace Pharmacy_Desktop_Application
         // Sales Page
         private void BtnClickSalePage(object sender, RoutedEventArgs e)
         {
-            Main.Content = new SalesMainPage(); 
+            Main.Content = new DisplaySalesPage();
         }
-
-        
     }
 }

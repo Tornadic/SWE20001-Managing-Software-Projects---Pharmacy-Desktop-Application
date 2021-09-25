@@ -19,11 +19,5 @@
             <Button x:Name="btnAddProduct" Click="BtnClickAddProduct">Add Product</Button>
             <ListBox x:Name="lsbProducts" MouseDoubleClick="LsbProducts_MouseDoubleClick"/>
         </StackPanel>
-        
-
-
-
     </Grid>
-
-    
 </Page>

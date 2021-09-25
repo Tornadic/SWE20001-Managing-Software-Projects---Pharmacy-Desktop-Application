@@ -98,6 +98,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ItemSale.cs" />
     <Compile Include="Pages\EditSalesPage.xaml.cs">
       <DependentUpon>EditSalesPage.xaml</DependentUpon>
     </Compile>
@@ -128,9 +129,6 @@
     <Compile Include="Product.cs" />
     <Compile Include="Pages\ProductSearchPage.xaml.cs">
       <DependentUpon>ProductSearchPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Pages\SalesMainPage.xaml.cs">
-      <DependentUpon>SalesMainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="SalesRecord.cs" />
     <Compile Include="SQLClient.cs" />
@@ -184,10 +182,6 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Pages\ProductSearchPage.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Pages\SalesMainPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

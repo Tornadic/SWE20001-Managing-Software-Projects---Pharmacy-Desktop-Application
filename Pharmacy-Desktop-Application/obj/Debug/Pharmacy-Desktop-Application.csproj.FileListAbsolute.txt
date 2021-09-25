@@ -169,7 +169,5 @@ C:\Users\willa\Source\Repos\Tornadic\SWE20001-Managing-Software-Projects---Pharm
 C:\Users\willa\Source\Repos\Tornadic\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\Pharmacy-Desktop-Application\obj\Debug\Pages\SalesMainPage.baml
 C:\Users\jettc\Source\Repos\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\Pharmacy-Desktop-Application\obj\Debug\Pages\EditSalesPage.g.cs
 C:\Users\jettc\Source\Repos\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\Pharmacy-Desktop-Application\obj\Debug\Pages\ProductSearchPage.g.cs
-C:\Users\jettc\Source\Repos\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\Pharmacy-Desktop-Application\obj\Debug\Pages\SalesMainPage.g.cs
 C:\Users\jettc\Source\Repos\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\Pharmacy-Desktop-Application\obj\Debug\Pages\EditSalesPage.baml
 C:\Users\jettc\Source\Repos\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\Pharmacy-Desktop-Application\obj\Debug\Pages\ProductSearchPage.baml
-C:\Users\jettc\Source\Repos\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\Pharmacy-Desktop-Application\obj\Debug\Pages\SalesMainPage.baml
