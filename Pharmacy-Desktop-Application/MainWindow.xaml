@@ -30,10 +30,17 @@
             <Button x:Name="btnHome" Click="BtnClickHome">Dan's Button</Button>
 
             <!--product page for adding more products to the database-->
-            <Button x:Name="btnProduct" Click="BtnClickProduct">Product</Button>
+            <Button x:Name="btnAddProduct" Click="BtnClickAddProduct">Add Product</Button>
+
+            <!--product page for editing products in the database-->
+            <Button x:Name="btnEditProduct" Click="BtnClickEditProduct">Edit Product</Button>
+
 
             <!--add sales record page for adding sales records to the database-->
             <Button x:Name="btnAddRecord" Click="BtnAddRecord">Add Sales Record</Button>
+
+            <!--add sales record page for adding sales records to the database-->
+            <Button x:Name="btnDisplaytRecord" Click="BtnDisplaySalesRecord">Display Sales Records</Button>
 
             <!--display the sales records/reports of products-->
             <Button x:Name="btnRecord" Click="BtnClickRecord">Records</Button>

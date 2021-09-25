@@ -100,3 +100,7 @@ C:\Users\Owen Ellerton\Source\Repos\Tornadic\SWE20001-Managing-Software-Projects
 C:\Users\Owen Ellerton\Source\Repos\Tornadic\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\Pharmacy-Desktop-Application\obj\Debug\Pharmacy-Desktop-Application.csproj.GenerateResource.cache
 C:\Users\Owen Ellerton\Source\Repos\Tornadic\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\Pharmacy-Desktop-Application\obj\Debug\Pharmacy-Desktop-Application.csproj.CoreCompileInputs.cache
 C:\Users\Owen Ellerton\Source\Repos\Tornadic\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\Pharmacy-Desktop-Application\obj\Debug\Pharmacy-Desktop-Application.csproj.CopyComplete
+C:\Users\jettc\Source\Repos\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\Pharmacy-Desktop-Application\obj\Debug\Pages\DisplaySalesPage.g.cs
+C:\Users\jettc\Source\Repos\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\Pharmacy-Desktop-Application\obj\Debug\Pages\EditProductPage.g.cs
+C:\Users\jettc\Source\Repos\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\Pharmacy-Desktop-Application\obj\Debug\Pages\DisplaySalesPage.baml
+C:\Users\jettc\Source\Repos\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\Pharmacy-Desktop-Application\obj\Debug\Pages\EditProductPage.baml

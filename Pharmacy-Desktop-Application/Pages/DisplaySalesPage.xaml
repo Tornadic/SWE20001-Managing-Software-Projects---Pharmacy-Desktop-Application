@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:Pharmacy_Desktop_Application"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="SalesPage">
+      Title="DisplaySalesPage">
 
     <Grid Background="White">
         <!--Sets up the grid frame for our page-->

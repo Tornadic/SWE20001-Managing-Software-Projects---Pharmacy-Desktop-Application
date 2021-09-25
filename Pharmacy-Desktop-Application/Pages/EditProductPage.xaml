@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:Pharmacy_Desktop_Application"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="ProductPage">
+      Title="EditProductPage">
 
     <Grid Background="White">
         <!--Sets up the grid frame for our page-->
@@ -45,7 +45,7 @@
         <TextBox x:Name="txtProdPrice" Grid.Column="1" Grid.Row="4"></TextBox>
 
 
-        <Button x:Name ="btnProductSubmit" Click="BtnClickSubmit" Grid.Column="1" Grid.Row="5" Width="Auto">
+        <Button x:Name ="btnProductSubmit" Click="BtnClickSubmit" Grid.Column="1" Grid.Row="5" Width="Auto" Margin="10">
             Edit Product in DataBase
         </Button>
         

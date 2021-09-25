@@ -24,5 +24,15 @@ namespace Pharmacy_Desktop_Application
         {
             InitializeComponent();
         }
+
+        private void BtnClickAdd(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void BtnClickSubmit(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
