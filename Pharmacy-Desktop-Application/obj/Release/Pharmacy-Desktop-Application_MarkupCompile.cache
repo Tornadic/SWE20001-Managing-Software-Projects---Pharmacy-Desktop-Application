@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\jettc\Source\Repos\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\Pharmacy-Desktop-Application\obj\Release\
+C:\Users\Owen Ellerton\Source\Repos\Tornadic\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\Pharmacy-Desktop-Application\obj\Release\
 Pharmacy_Desktop_Application
 none
 false
 TRACE
-C:\Users\jettc\Source\Repos\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\Pharmacy-Desktop-Application\App.xaml
-6560504353
+C:\Users\Owen Ellerton\Source\Repos\Tornadic\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\Pharmacy-Desktop-Application\App.xaml
+7-1736149137
 
-12-638281367
-1351175030304
-MainWindow.xaml;Pages\HomePage.xaml;Pages\PredictionPage.xaml;Pages\ProductPage.xaml;Pages\RecordPage.xaml;Pages\SettingsPage.xaml;
+151588577678
+135533737883
+MainWindow.xaml;Pages\HomePage.xaml;Pages\PredictionPage.xaml;Pages\ProductPage.xaml;Pages\RecordPage.xaml;Pages\SalesPage.xaml;Pages\SettingsPage.xaml;
 
 True
 

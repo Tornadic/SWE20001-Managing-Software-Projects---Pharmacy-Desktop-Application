@@ -1,0 +1,56 @@
+﻿<Page x:Class="Pharmacy_Desktop_Application.SalesPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Pharmacy_Desktop_Application"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="SalesPage">
+
+    <Grid Background="White">
+        <!--Sets up the grid frame for our page-->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+
+        <TextBlock Name="Content" Grid.Column="0" Grid.Row="0">
+            This the Sales Page
+        </TextBlock>
+
+        <TextBlock Grid.Column="0" Grid.Row="1">Date:</TextBlock>
+        <DatePicker x:Name="txtSaleDate" Grid.Column="1" Grid.Row="1" DisplayDate="2021-09-24" SelectedDateFormat="Long"></DatePicker>
+
+        <TextBlock Grid.Column="0" Grid.Row="2">Product:</TextBlock>
+        <ComboBox Name="cmxItemProduct" Margin="3,3,3,3" HorizontalAlignment="Stretch" Grid.Column="1" Grid.Row="2" >
+    
+        </ComboBox>
+
+        <TextBlock Grid.Column="0" Grid.Row="3">Quantity:</TextBlock>
+        <TextBox x:Name="txtItemQuantity" Grid.Column="1" Grid.Row="3"></TextBox>
+        
+        <Button x:Name ="btnItemAdd" Click="BtnItemAdd" Grid.Column="1" Grid.Row="4" Width="Auto">
+            Add Item
+        </Button>
+        
+        <TextBlock Grid.Column="0" Grid.Row="5">Item List:</TextBlock>
+        <ListBox x:Name="txtItemList" Grid.Column="1" Grid.Row="5"></ListBox>
+        
+        <Button x:Name ="btnSaleSubmit" Click="BtnSaleSubmit" Grid.Column="1" Grid.Row="6" Width="Auto">
+            Add Sale to DataBase
+        </Button>
+
+
+    </Grid>
+</Page>

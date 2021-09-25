@@ -25,10 +25,14 @@
 
         
         <TextBlock Name="Content" Grid.Column="0" Grid.Row="0">
-            This the Product Page
+            This the Product View/Edit Page
         </TextBlock>
-		
-        <TextBlock Grid.Column="0" Grid.Row="1">Product SKU: </TextBlock>
+		<Button x:Name ="btnProductAdd" Click="BtnClickAdd" Grid.Column="1" Grid.Row="0" Width="Auto">
+			Add Product to DataBase
+		</Button>
+
+
+		<TextBlock Grid.Column="0" Grid.Row="1">Product SKU: </TextBlock>
         <TextBox x:Name="txtProdSKU" Grid.Column="1" Grid.Row="1"></TextBox>
 
         <TextBlock Grid.Column="0" Grid.Row="2">Product Name:</TextBlock>
@@ -42,7 +46,7 @@
 
 
         <Button x:Name ="btnProductSubmit" Click="BtnClickSubmit" Grid.Column="1" Grid.Row="5" Width="Auto">
-            Add Product to DataBase
+            Edit Product in DataBase
         </Button>
         
 
