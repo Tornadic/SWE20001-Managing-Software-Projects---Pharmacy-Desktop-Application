@@ -29,8 +29,6 @@
             This the Sales Page
         </TextBlock>
 
-        <TextBox Grid.Column="1" Grid.Row="0">Search Sales here and fill content?</TextBox>
-
         <TextBlock Grid.Column="0" Grid.Row="1">Date:</TextBlock>
         <DatePicker x:Name="txtSaleDate" Grid.Column="1" Grid.Row="1" DisplayDate="2021-09-24" SelectedDateFormat="Long"></DatePicker>
 
@@ -45,17 +43,15 @@
         <Button x:Name ="btnItemAdd" Click="BtnItemAdd" Grid.Column="1" Grid.Row="4" Width="Auto">
             Add Edited Item
         </Button>
-
-        <TextBlock Grid.Column="0" Grid.Row="5">Item List:</TextBlock>
-        <ListBox x:Name="txtItemList" Grid.Column="1" Grid.Row="5"></ListBox>
-
-
-        <Button x:Name ="btnSaleRevert" Click="BtnClickRevert" Grid.Column="0" Grid.Row="6" Width="Auto">
-            Undo Changes Made
+        <Button x:Name ="btnItemEdit" Click="BtnItemAdd" Grid.Column="1" Grid.Row="4" Width="Auto">
+            Add Edited Item
         </Button>
 
+        <TextBlock Grid.Column="0" Grid.Row="5">Item List:</TextBlock>
+        <ListBox x:Name="txtItemList" MouseDoubleClick="TxtItemList_MouseDoubleClick" Grid.Column="1" Grid.Row="5"></ListBox>
+
         <Button x:Name ="btnSaleSubmit" Click="BtnSaleSubmit" Grid.Column="1" Grid.Row="6" Width="Auto">
-            Commit and Update Sale in DataBase
+            Update Sale
         </Button>
     </Grid>
 </Page>

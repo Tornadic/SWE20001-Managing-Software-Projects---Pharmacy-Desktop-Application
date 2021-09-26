@@ -50,7 +50,7 @@ namespace Pharmacy_Desktop_Application
 
         private void LsbSalesRecord_MouseDoubleClick(object sender, MouseEventArgs e)
         {
-            NavigationService.Navigate(new EditSalesPage());
+            NavigationService.Navigate(new EditSalesPage(_phpSalesRecord[lsbSalesRecord.SelectedIndex]));
         }
 
         private void BtnClickAddSalesRecord(object sender, RoutedEventArgs e)

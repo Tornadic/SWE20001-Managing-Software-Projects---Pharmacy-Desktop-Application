@@ -43,7 +43,7 @@ namespace Pharmacy_Desktop_Application
             {
                 Product prod = _products[cmxItemProduct.SelectedIndex];
                 _soldProducts.Add((prod, int.Parse(txtItemQuantity.Text)));
-                 txtItemList.Items.Add(prod.Name + "    " + txtItemQuantity.Text +  "     " + prod.Price * int.Parse(txtItemQuantity.Text));
+                 txtItemList.Items.Add(prod.Name + "    " + txtItemQuantity.Text +  "     " + prod.Price * float.Parse(txtItemQuantity.Text));
             }
         }
 
