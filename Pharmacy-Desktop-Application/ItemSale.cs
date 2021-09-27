@@ -9,19 +9,15 @@ namespace Pharmacy_Desktop_Application
 
     public class ItemSale
     {
-        private int _itmSaleID;
-        private string _itmSaleProdSKU;
-        private int _itmSaleQuantity;
-
         public ItemSale(int itmSaleID, string itmSaleProdSKU, int itmSaleQuantity)
         {
-            _itmSaleID = itmSaleID;
-            _itmSaleProdSKU = itmSaleProdSKU;
-            _itmSaleQuantity = itmSaleQuantity;
+            ItmSaleID = itmSaleID;
+            ItmSaleProdSKU = itmSaleProdSKU;
+            ItmSaleQuantity = itmSaleQuantity;
         }
 
-        public int ItmSaleID { get => _itmSaleID; }
-        public string ItmSaleProdSKU { get => _itmSaleProdSKU; }
-        public int ItmSaleQuantity { get => _itmSaleQuantity; }
+        public int ItmSaleID { get; }
+        public string ItmSaleProdSKU { get; }
+        public int ItmSaleQuantity { get; }
     }
 }

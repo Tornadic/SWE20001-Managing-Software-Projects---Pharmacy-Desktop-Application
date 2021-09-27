@@ -17,9 +17,7 @@ namespace Pharmacy_Desktop_Application
         public string DatabaseName { get; set; }
         public string UserName { get; set; }
         public string Password { get; set; }
-        public MySqlConnection Connection { get => _connection; }
-
-        private MySqlConnection _connection;
+        public MySqlConnection Connection { get; private set; }
 
         private static SQLClient _instance = null;
         public static SQLClient Instance()
@@ -38,8 +36,8 @@ namespace Pharmacy_Desktop_Application
                     if (String.IsNullOrEmpty(DatabaseName))
                         return false;
                     string connstring = string.Format("Server={0}; database={1}; UID={2}; password={3}", Server, DatabaseName, UserName, Password);
-                    _connection = new MySqlConnection(connstring);
-                    _connection.Open();
+                    Connection = new MySqlConnection(connstring);
+                    Connection.Open();
                 }
 
                 return true;
@@ -50,7 +48,7 @@ namespace Pharmacy_Desktop_Application
         public void Close()
         {
             Connection.Close();
-            _connection = null;
+            Connection = null;
         }
     }
 }

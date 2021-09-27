@@ -71,7 +71,7 @@ namespace Pharmacy_Desktop_Application
                 else
                     _updatedProducts.Add((new ItemSale(_editing.ItmSaleID, prod.SKU, Convert.ToInt32(txtItemQuantity.Text)), _newItemSale));
 
-                txtItemList.Items.Add(prod.Name + "    " + txtItemQuantity.Text + "     " + prod.Price * int.Parse(txtItemQuantity.Text));
+                txtItemList.Items.Add(prod.Name + "  |  " + txtItemQuantity.Text + "  |   " + prod.Price * int.Parse(txtItemQuantity.Text));
 
             }
         }
