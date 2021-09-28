@@ -10,8 +10,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using Windows.Data.Xml.Dom;
-using Windows.UI.Notifications;
+
 
 namespace Pharmacy_Desktop_Application
 {
@@ -36,12 +35,6 @@ namespace Pharmacy_Desktop_Application
                 txtProdSKU.Text = ""; 
                 txtProdStock.Text = ""; 
                 txtProdPrice.Text = "";
-                var message = "Sample message";
-                var xml = $"<?xml version=\"1.0\"?><toast><visual><binding template=\"ToastText01\"><text id=\"1\">{message}</text></binding></visual></toast>";
-                var toastXml = new XmlDocument();
-                toastXml.LoadXml(xml);
-                var toast = new ToastNotification(toastXml);
-                ToastNotificationManager.CreateToastNotifier("Product created").Show(toast);
             }
         }
     }
