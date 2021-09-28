@@ -312,6 +312,7 @@
     <Compile Include="SalesRecord.cs" />
     <Compile Include="SQLClient.cs" />
     <Compile Include="SQLobj.cs" />
+    <Compile Include="TotalSold.cs" />
     <Page Include="Pages\EditSalesPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
