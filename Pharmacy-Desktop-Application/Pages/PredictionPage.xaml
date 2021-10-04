@@ -16,7 +16,9 @@
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="40"/>
+            <RowDefinition Height="80"/>
             <RowDefinition Height="40"/>
+            <RowDefinition Height="80"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
 
@@ -29,10 +31,17 @@
         <TextBlock Grid.Column="0" Grid.Row="1">
            Pick a Record to Display The Projected Sales for:
         </TextBlock>
-        <ListBox x:Name="textPredictionList" Grid.Column="1" Grid.Row="1"></ListBox>
+        <TextBox x:Name="textPredictionList" Grid.Column="1" Grid.Row="1"></TextBox>
 
         <Button x:Name ="btnProductWeekly" Click="BtnClickWeek" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Left"  Width="Auto">Display Next Week</Button>
         <Button x:Name ="btnProductMonthly" Click="BtnClickMonth" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Right"  Width="Auto">Display Next Month</Button>
+
+        <TextBlock Grid.Column="0" Grid.Row="3">
+            Product Combo
+        </TextBlock>
+        <TextBox x:Name="textComboPredictionList" Grid.Column="1" Grid.Row="3"></TextBox>
+        <Button x:Name ="btnComboroductWeekly" Click="BtnClickWeekCombo" Grid.Column="1" Grid.Row="4" HorizontalAlignment="Left"  Width="Auto">Display Next Week</Button>
+        <Button x:Name ="btnComboProductMonthly" Click="BtnClickMonthCombo" Grid.Column="1" Grid.Row="4" HorizontalAlignment="Right"  Width="Auto">Display Next Month</Button>
 
 
 

@@ -247,6 +247,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ComboSold.cs" />
     <Compile Include="ItemSale.cs" />
     <Compile Include="Pages\EditSalesPage.xaml.cs">
       <DependentUpon>EditSalesPage.xaml</DependentUpon>
