@@ -433,3 +433,16 @@ C:\Users\Thiem Quyen\source\repos\Clone3\Pharmacy-Desktop-Application\obj\Debug\
 C:\Users\Thiem Quyen\source\repos\Clone3\Pharmacy-Desktop-Application\obj\Debug\Pharmacy-Desktop-Application.csproj.CopyComplete
 C:\Users\Thiem Quyen\source\repos\Clone3\Pharmacy-Desktop-Application\obj\Debug\Pharmacy-Desktop-Application.exe
 C:\Users\Thiem Quyen\source\repos\Clone3\Pharmacy-Desktop-Application\obj\Debug\Pharmacy-Desktop-Application.pdb
+C:\Users\bedsoc\Source\Repos\Tornadic\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\Pharmacy-Desktop-Application\bin\Debug\CommonServiceLocator.dll
+C:\Users\bedsoc\Source\Repos\Tornadic\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\Pharmacy-Desktop-Application\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\bedsoc\Source\Repos\Tornadic\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\Pharmacy-Desktop-Application\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\bedsoc\Source\Repos\Tornadic\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\Pharmacy-Desktop-Application\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\bedsoc\Source\Repos\Tornadic\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\Pharmacy-Desktop-Application\bin\Debug\System.Collections.Immutable.dll
+C:\Users\bedsoc\Source\Repos\Tornadic\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\Pharmacy-Desktop-Application\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\bedsoc\Source\Repos\Tornadic\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\Pharmacy-Desktop-Application\bin\Debug\System.ValueTuple.dll
+C:\Users\bedsoc\Source\Repos\Tornadic\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\Pharmacy-Desktop-Application\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\bedsoc\Source\Repos\Tornadic\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\Pharmacy-Desktop-Application\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\bedsoc\Source\Repos\Tornadic\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\Pharmacy-Desktop-Application\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\bedsoc\Source\Repos\Tornadic\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\Pharmacy-Desktop-Application\bin\Debug\System.Collections.Immutable.xml
+C:\Users\bedsoc\Source\Repos\Tornadic\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\Pharmacy-Desktop-Application\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\bedsoc\Source\Repos\Tornadic\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\Pharmacy-Desktop-Application\bin\Debug\System.ValueTuple.xml

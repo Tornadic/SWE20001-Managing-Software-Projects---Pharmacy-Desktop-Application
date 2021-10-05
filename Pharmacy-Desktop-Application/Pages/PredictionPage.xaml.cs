@@ -13,6 +13,7 @@ using System.Windows.Shapes;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace Pharmacy_Desktop_Application
 {
@@ -22,7 +23,7 @@ namespace Pharmacy_Desktop_Application
     public partial class PredictionPage : Page
     {
 
-        private List<SalesRecord> _phpSalesRecord = new List<SalesRecord>();
+        private List<ComboSold> _listOfCombos = new List<ComboSold>();
         private List<TotalSoldByItem> _listOfSoldItems = new List<TotalSoldByItem>();
 
         public PredictionPage()
@@ -128,8 +129,8 @@ namespace Pharmacy_Desktop_Application
             textComboPredictionList.Text = "Product combo from last week";
             if (phpWeeklySalesRecord.Count > 0)
             {
-                List<ComboSold> comboSoldRec = MatchAndSortByPair(phpWeeklySalesRecord, phpItemSales);
-                foreach (ComboSold combo in comboSoldRec)
+                _listOfCombos = MatchAndSortByPair(phpWeeklySalesRecord, phpItemSales);
+                foreach (ComboSold combo in _listOfCombos)
                 {
                     textComboPredictionList.Text += $"\n{string.Join(", ", combo.ProdsSKU)} {combo.Occurrence}";
                 }
@@ -145,8 +146,8 @@ namespace Pharmacy_Desktop_Application
             textComboPredictionList.Text = "Product combo from last month";
             if (phpMonthlySalesRecord.Count > 0)
             {
-                List<ComboSold> comboSoldRec = MatchAndSortByPair(phpMonthlySalesRecord, phpItemSales);
-                foreach (ComboSold combo in comboSoldRec)
+                _listOfCombos = MatchAndSortByPair(phpMonthlySalesRecord, phpItemSales);
+                foreach (ComboSold combo in _listOfCombos)
                 {
                     textComboPredictionList.Text += $"\n{string.Join(", ", combo.ProdsSKU)} {combo.Occurrence}";
                 }
@@ -190,6 +191,48 @@ namespace Pharmacy_Desktop_Application
                 }
             }
             else { textPredictionList.Text += "\nNo recent data to make monthly predictions"; }
+        }
+
+        private void CreateCSV()
+        {
+            //Make this work off a button or two? THen wont need to do null checks
+            if (_listOfSoldItems.Count > 0)
+            {
+                try
+                {
+                    StreamWriter fileOutput = new StreamWriter("C:\\SalesReports\\Predictions.csv");
+                    foreach (TotalSoldByItem itemTotal in _listOfSoldItems)
+                    {
+                        string itemsSold = itemTotal.SKU + ", " + itemTotal.TotalQuantity;
+                        fileOutput.WriteLine(itemsSold);
+                    }
+                    fileOutput.Close();
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine("Exception: " + e.Message);
+                }
+            }
+            else if (_listOfCombos != null)
+            {
+                try
+                {
+                    StreamWriter fileOutput = new StreamWriter("C:\\SalesReports\\Predictions_Grouped.csv");
+                    foreach (ComboSold combo in _listOfCombos)
+                    {
+                        string itemsSold = "";
+                        foreach (string s in combo.ProdsSKU)
+                        { itemsSold += s; }
+                        itemsSold += combo.Occurrence;
+                        fileOutput.WriteLine(itemsSold);
+                    }
+                    fileOutput.Close();
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine("Exception: " + e.Message);
+                }
+            }
         }
     }
 }
