@@ -222,7 +222,7 @@ namespace Pharmacy_Desktop_Application
                     {
                         string itemsSold = "";
                         foreach (string s in combo.ProdsSKU)
-                        { itemsSold += s; }
+                        { itemsSold += s + ", "; }
                         itemsSold += combo.Occurrence;
                         fileOutput.WriteLine(itemsSold);
                     }
