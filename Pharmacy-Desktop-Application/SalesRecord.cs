@@ -8,6 +8,7 @@ namespace Pharmacy_Desktop_Application
 {
     public class SalesRecord
     {
+        //
         public SalesRecord(int salesRecID, DateTime salesRecDate, float salesRecPrice, List<ItemSale> itemSales)
         {
             SalesRecID = salesRecID;
