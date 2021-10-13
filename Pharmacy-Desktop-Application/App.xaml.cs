@@ -11,6 +11,7 @@ namespace Pharmacy_Desktop_Application
     /// <summary>
     /// Interaction logic for App.xaml
     /// </summary>
+    /// dan is smelly, but in a good way 
     public partial class App : Application
     {
     }
