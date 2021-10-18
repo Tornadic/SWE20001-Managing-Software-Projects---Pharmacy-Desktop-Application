@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\jettc\Source\Repos\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\Pharmacy-Desktop-Application\App.xaml
-111774259298
+12-538042867
 
-231401672659
-1451098953882
-Pages\EditSalesPage.xaml;MainWindow.xaml;Pages\DisplaySalesPage.xaml;Pages\EditProductPage.xaml;Pages\HomePage.xaml;Pages\PredictionPage.xaml;Pages\ProductPage.xaml;Pages\RecordPage.xaml;Pages\SalesPage.xaml;Pages\SettingsPage.xaml;Pages\ProductSearchPage.xaml;
+23582955965
+232-1706000036
+Pages\EditSalesPage.xaml;MainWindow.xaml;Pages\DisplaySalesPage.xaml;Pages\EditProductPage.xaml;Pages\HomePage.xaml;Pages\PredictionPage.xaml;Pages\ProductPage.xaml;Pages\LowStockPage.xaml;Pages\RecordPage.xaml;Pages\SalesPage.xaml;Pages\SettingsPage.xaml;Pages\ProductSearchPage.xaml;
 
-True
+False
 
