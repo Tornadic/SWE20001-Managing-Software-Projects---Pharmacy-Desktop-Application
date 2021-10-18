@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Microsoft.Toolkit.Uwp.Notifications;
 
 namespace Pharmacy_Desktop_Application
 {
@@ -25,7 +26,8 @@ namespace Pharmacy_Desktop_Application
         public MainWindow()
         {
             InitializeComponent();
-            Main.Content = new HomePage(); // sets the homepage to be displayed when the application is open 
+            Main.Content = new HomePage();
+
         }
 
         private void BtnClickHome(object sender, RoutedEventArgs e)
@@ -55,5 +57,12 @@ namespace Pharmacy_Desktop_Application
         {
             Main.Content = new DisplaySalesPage();
         }
+
+        public void showLowStock()
+        {
+            Main.Content = new LowStockPage();
+        }
+
+
     }
 }
