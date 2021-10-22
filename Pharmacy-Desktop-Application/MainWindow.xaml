@@ -39,7 +39,10 @@
             
             <!--display the weekly and monthly predictions of each product-->
             <Button x:Name="btnPrediction" Click="BtnClickPrediction">Predictions</Button>
-            
+
+            <!--button for chart page to view last months sales by units-->
+            <Button x:Name="btnChart" Click="BtnChart">Sales Chart</Button>
+
             <!--settings for usability, impletment in sprint 2-->
             <Button x:Name="btnSettings" Click="BtnClickSettings">Settings</Button>
         </StackPanel>

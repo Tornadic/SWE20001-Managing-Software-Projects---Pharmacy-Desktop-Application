@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jettc\\Source\\Repos\\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application.csproj": {}
+    "C:\\Users\\bedsoc\\Source\\Repos\\Tornadic\\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jettc\\Source\\Repos\\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application.csproj": {
+    "C:\\Users\\bedsoc\\Source\\Repos\\Tornadic\\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jettc\\Source\\Repos\\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application.csproj",
+        "projectUniqueName": "C:\\Users\\bedsoc\\Source\\Repos\\Tornadic\\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application.csproj",
         "projectName": "Pharmacy-Desktop-Application",
-        "projectPath": "C:\\Users\\jettc\\Source\\Repos\\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application.csproj",
-        "packagesPath": "C:\\Users\\jettc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jettc\\Source\\Repos\\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application\\obj\\",
+        "projectPath": "C:\\Users\\bedsoc\\Source\\Repos\\Tornadic\\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application.csproj",
+        "packagesPath": "C:\\Users\\bedsoc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bedsoc\\Source\\Repos\\Tornadic\\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
-          "C:\\Users\\jettc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bedsoc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -49,6 +49,10 @@
             "MySql.Data": {
               "target": "Package",
               "version": "[8.0.26, )"
+            },
+            "Syncfusion.SfChart.WPF": {
+              "target": "Package",
+              "version": "[19.3.0.46, )"
             },
             "System.Collections.Immutable": {
               "target": "Package",

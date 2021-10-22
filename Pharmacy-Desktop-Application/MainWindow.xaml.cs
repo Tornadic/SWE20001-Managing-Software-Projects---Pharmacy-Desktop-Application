@@ -58,6 +58,12 @@ namespace Pharmacy_Desktop_Application
             Main.Content = new DisplaySalesPage();
         }
 
+        //Chart Page    
+        private void BtnChart(object sender, RoutedEventArgs e)
+        {
+            Main.Content = new ChartPage();
+        }
+
         public void showLowStock()
         {
             Main.Content = new LowStockPage();

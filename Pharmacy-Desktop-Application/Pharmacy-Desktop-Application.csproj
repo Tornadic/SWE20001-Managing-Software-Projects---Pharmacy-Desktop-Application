@@ -67,6 +67,10 @@
     </ApplicationDefinition>
     <Compile Include="ComboSold.cs" />
     <Compile Include="ItemSale.cs" />
+    <Compile Include="Pages\ChartData.cs" />
+    <Compile Include="Pages\ChartPage.xaml.cs">
+      <DependentUpon>ChartPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\EditSalesPage.xaml.cs">
       <DependentUpon>EditSalesPage.xaml</DependentUpon>
     </Compile>
@@ -97,6 +101,7 @@
     <Compile Include="Pages\SettingsPage.xaml.cs">
       <DependentUpon>SettingsPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\ViewModel.cs" />
     <Compile Include="Product.cs" />
     <Compile Include="Pages\ProductSearchPage.xaml.cs">
       <DependentUpon>ProductSearchPage.xaml</DependentUpon>
@@ -105,6 +110,10 @@
     <Compile Include="SQLClient.cs" />
     <Compile Include="SQLobj.cs" />
     <Compile Include="TotalSold.cs" />
+    <Page Include="Pages\ChartPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\EditSalesPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -200,6 +209,9 @@
     </PackageReference>
     <PackageReference Include="MySql.Data">
       <Version>8.0.26</Version>
+    </PackageReference>
+    <PackageReference Include="Syncfusion.SfChart.WPF">
+      <Version>19.3.0.46</Version>
     </PackageReference>
     <PackageReference Include="System.Collections.Immutable">
       <Version>1.3.1</Version>

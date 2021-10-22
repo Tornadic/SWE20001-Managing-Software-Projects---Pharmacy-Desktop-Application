@@ -335,6 +335,27 @@
           "System.Xml.XDocument": "4.3.0"
         }
       },
+      "Syncfusion.Licensing/19.3.0.46": {
+        "type": "package",
+        "compile": {
+          "lib/net46/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.SfChart.WPF/19.3.0.46": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "19.3.0.46"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.SfChart.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.SfChart.WPF.dll": {}
+        }
+      },
       "System.AppContext/4.3.0": {
         "type": "package",
         "frameworkAssemblies": [
@@ -1391,6 +1412,27 @@
           "System.Xml.XDocument": "4.3.0"
         }
       },
+      "Syncfusion.Licensing/19.3.0.46": {
+        "type": "package",
+        "compile": {
+          "lib/net46/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.SfChart.WPF/19.3.0.46": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "19.3.0.46"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.SfChart.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.SfChart.WPF.dll": {}
+        }
+      },
       "System.AppContext/4.3.0": {
         "type": "package",
         "frameworkAssemblies": [
@@ -2383,6 +2425,27 @@
           "System.Xml.XDocument": "4.3.0"
         }
       },
+      "Syncfusion.Licensing/19.3.0.46": {
+        "type": "package",
+        "compile": {
+          "lib/net46/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.SfChart.WPF/19.3.0.46": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "19.3.0.46"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.SfChart.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.SfChart.WPF.dll": {}
+        }
+      },
       "System.AppContext/4.3.0": {
         "type": "package",
         "frameworkAssemblies": [
@@ -3373,6 +3436,27 @@
           "System.Threading.Timer": "4.3.0",
           "System.Xml.ReaderWriter": "4.3.0",
           "System.Xml.XDocument": "4.3.0"
+        }
+      },
+      "Syncfusion.Licensing/19.3.0.46": {
+        "type": "package",
+        "compile": {
+          "lib/net46/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.SfChart.WPF/19.3.0.46": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "19.3.0.46"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.SfChart.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.SfChart.WPF.dll": {}
         }
       },
       "System.AppContext/4.3.0": {
@@ -4899,6 +4983,84 @@
         "dotnet_library_license.txt",
         "netstandard.library.1.6.1.nupkg.sha512",
         "netstandard.library.nuspec"
+      ]
+    },
+    "Syncfusion.Licensing/19.3.0.46": {
+      "sha512": "vpTRtWEEarcUeb3HjSZLe4nb+cJ6TOeSW1QiQiitAf8b3pp4YdYLtNBFdMLEgeun4Y1+nHZbYNq+alV32wbP2w==",
+      "type": "package",
+      "path": "syncfusion.licensing/19.3.0.46",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/MonoAndroid10.0/Syncfusion.Licensing.dll",
+        "lib/MonoAndroid90/Syncfusion.Licensing.dll",
+        "lib/Xamarin.Mac/Syncfusion.Licensing.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Licensing.dll",
+        "lib/net20/Syncfusion.Licensing.dll",
+        "lib/net35/Syncfusion.Licensing.dll",
+        "lib/net40/Syncfusion.Licensing.dll",
+        "lib/net45/Syncfusion.Licensing.dll",
+        "lib/net451/Syncfusion.Licensing.dll",
+        "lib/net46/Syncfusion.Licensing.dll",
+        "lib/net5.0-windows10.0/Syncfusion.Licensing.dll",
+        "lib/net5.0/Syncfusion.Licensing.dll",
+        "lib/netcoreapp3.1/Syncfusion.Licensing.dll",
+        "lib/netstandard1.0/Syncfusion.Licensing.dll",
+        "lib/netstandard1.2/Syncfusion.Licensing.dll",
+        "lib/netstandard1.4/Syncfusion.Licensing.dll",
+        "lib/netstandard2.0/Syncfusion.Licensing.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Licensing.dll",
+        "lib/uap10.0/Syncfusion.Licensing.dll",
+        "syncfusion.licensing.19.3.0.46.nupkg.sha512",
+        "syncfusion.licensing.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.SfChart.WPF/19.3.0.46": {
+      "sha512": "yTsWnNBVfKY7CWaDjvT4RC4BcJSPBxA/9EQW2m3uVAhXao0EfuM/JYEHXg3daLQ5YH5QO8QCuJHfIfxPISO7mg==",
+      "type": "package",
+      "path": "syncfusion.sfchart.wpf/19.3.0.46",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net40/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net40/Design/Syncfusion.SfChart.WPF.DesignTools.dll",
+        "lib/net40/Design/Syncfusion.SfChart.WPF.Expression.Design.dll",
+        "lib/net40/Design/Syncfusion.SfChart.WPF.VisualStudio.Design.dll",
+        "lib/net40/Syncfusion.SfChart.WPF.dll",
+        "lib/net40/Syncfusion.SfChart.WPF.xml",
+        "lib/net45/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net45/Design/Syncfusion.SfChart.WPF.DesignTools.dll",
+        "lib/net45/Design/Syncfusion.SfChart.WPF.Expression.Design.dll",
+        "lib/net45/Design/Syncfusion.SfChart.WPF.VisualStudio.Design.dll",
+        "lib/net45/Syncfusion.SfChart.WPF.dll",
+        "lib/net45/Syncfusion.SfChart.WPF.xml",
+        "lib/net451/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net451/Design/Syncfusion.SfChart.WPF.DesignTools.dll",
+        "lib/net451/Design/Syncfusion.SfChart.WPF.Expression.Design.dll",
+        "lib/net451/Design/Syncfusion.SfChart.WPF.VisualStudio.Design.dll",
+        "lib/net451/Syncfusion.SfChart.WPF.dll",
+        "lib/net451/Syncfusion.SfChart.WPF.xml",
+        "lib/net46/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net46/Design/Syncfusion.SfChart.WPF.DesignTools.dll",
+        "lib/net46/Design/Syncfusion.SfChart.WPF.Expression.Design.dll",
+        "lib/net46/Design/Syncfusion.SfChart.WPF.VisualStudio.Design.dll",
+        "lib/net46/Syncfusion.SfChart.WPF.dll",
+        "lib/net46/Syncfusion.SfChart.WPF.xml",
+        "lib/net5.0-windows7.0/Design/Syncfusion.SfChart.WPF.DesignTools.dll",
+        "lib/net5.0-windows7.0/Syncfusion.SfChart.WPF.dll",
+        "lib/net5.0-windows7.0/Syncfusion.SfChart.WPF.xml",
+        "lib/netcoreapp3.1/Design/Syncfusion.SfChart.WPF.DesignTools.dll",
+        "lib/netcoreapp3.1/Syncfusion.SfChart.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.SfChart.WPF.xml",
+        "syncfusion.sfchart.wpf.19.3.0.46.nupkg.sha512",
+        "syncfusion.sfchart.wpf.nuspec",
+        "syncfusion_logo.png",
+        "tools/VisualStudioToolsManifest.xml"
       ]
     },
     "System.AppContext/4.3.0": {
@@ -8033,6 +8195,7 @@
       "Microsoft.Extensions.Logging >= 1.1.1",
       "Microsoft.Toolkit.Uwp.Notifications >= 7.1.0",
       "MySql.Data >= 8.0.26",
+      "Syncfusion.SfChart.WPF >= 19.3.0.46",
       "System.Collections.Immutable >= 1.3.1",
       "System.Numerics.Vectors >= 4.5.0",
       "System.Reflection.Emit.Lightweight >= 4.3.0",
@@ -8040,20 +8203,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jettc\\.nuget\\packages\\": {}
+    "C:\\Users\\bedsoc\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jettc\\Source\\Repos\\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application.csproj",
+      "projectUniqueName": "C:\\Users\\bedsoc\\Source\\Repos\\Tornadic\\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application.csproj",
       "projectName": "Pharmacy-Desktop-Application",
-      "projectPath": "C:\\Users\\jettc\\Source\\Repos\\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application.csproj",
-      "packagesPath": "C:\\Users\\jettc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jettc\\Source\\Repos\\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application\\obj\\",
+      "projectPath": "C:\\Users\\bedsoc\\Source\\Repos\\Tornadic\\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application.csproj",
+      "packagesPath": "C:\\Users\\bedsoc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\bedsoc\\Source\\Repos\\Tornadic\\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\jettc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\bedsoc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8087,6 +8250,10 @@
           "MySql.Data": {
             "target": "Package",
             "version": "[8.0.26, )"
+          },
+          "Syncfusion.SfChart.WPF": {
+            "target": "Package",
+            "version": "[19.3.0.46, )"
           },
           "System.Collections.Immutable": {
             "target": "Package",
