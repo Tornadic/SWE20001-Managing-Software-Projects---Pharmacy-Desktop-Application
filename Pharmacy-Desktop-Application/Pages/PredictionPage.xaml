@@ -25,10 +25,10 @@
         </Grid.RowDefinitions>
 
         <TextBlock Grid.Column="0" Grid.Row="0" Style="{StaticResource Heading}">
-           Predition Page
+           Prediction Page
         </TextBlock>
 
-        <TextBlock Grid.Column="0" Grid.Row="1" Style="{StaticResource SubHeading}">
+        <TextBlock Grid.Column="0" Grid.Row="1" FontSize="16">
            Pick a Record to Display The Projected Sales for:
         </TextBlock>
         <TextBox x:Name="textPredictionList" Grid.Column="1" Grid.Row="1"></TextBox>

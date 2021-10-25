@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\willa\source\repos\Tornadic\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\Pharmacy-Desktop-Application\obj\Debug\
+C:\Users\willa\Source\Repos\Tornadic\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\Pharmacy-Desktop-Application\obj\Debug\
 Pharmacy_Desktop_Application
 none
 false
 DEBUG;TRACE
-C:\Users\willa\source\repos\Tornadic\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\Pharmacy-Desktop-Application\App.xaml
+C:\Users\willa\Source\Repos\Tornadic\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\Pharmacy-Desktop-Application\App.xaml
 15-92451061
 
 231401672659
-145970671529
+1451258332524
 Pages\EditSalesPage.xaml;MainWindow.xaml;Pages\DisplaySalesPage.xaml;Pages\EditProductPage.xaml;Pages\HomePage.xaml;Pages\PredictionPage.xaml;Pages\ProductPage.xaml;Pages\RecordPage.xaml;Pages\SalesPage.xaml;Pages\SettingsPage.xaml;Pages\ProductSearchPage.xaml;StyleDictionaries\ButtonDictionary.xaml;StyleDictionaries\ListBoxDictionary.xaml;StyleDictionaries\PageDictionary.xaml;StyleDictionaries\TextDictionary.xaml;
 
-True
+False
 

@@ -2,13 +2,10 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:local="clr-namespace:Pharmacy_Desktop_Application.StyleDictionaries">
 
-    <FontFamily x:Key="Prosto">./Fonts.Prosto.ttf #Prosco</FontFamily>
-    
 
     <Style TargetType="{x:Type TextBox}">
         <Setter Property="Background" Value="White"/>
-        <!--<Setter Property="FontFamily" Value="{StaticResource Prosto}"/>-->
-        <!--<Setter Property="FontFamily" Value="Fonts/Prosto.ttf #Prosto"></Setter>-->
+
     </Style>
     
     <Style TargetType="{x:Type TextBox}" x:Key="TransparentTextBox">
@@ -17,11 +14,13 @@
 
 
     <Style TargetType="{x:Type TextBlock}">
-        <!--<Setter Property="FontSize" Value="24"></Setter>-->
+
         <Setter Property="TextAlignment" Value="Right"></Setter>
         
-        <!--<Setter Property="FontFamily" Value="{StaticResource Prosto}"/>-->
-        <!--<Setter Property="TextElement.FontFamily" Value="Fonts/Prosto.ttf #Prosto"></Setter>-->
+
+
+
+        <Setter Property="FontFamily" Value="{StaticResource Canyon}"></Setter>
 
 
     </Style>
