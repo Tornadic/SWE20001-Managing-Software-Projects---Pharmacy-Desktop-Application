@@ -25,19 +25,19 @@
         </Grid.RowDefinitions>
 
 
-        <TextBlock Name="Content" Grid.Column="0" Grid.Row="0">
-            This the Sales Page
+        <TextBlock Name="Content" Grid.Column="0" Grid.Row="0" Style="{StaticResource Heading}">
+            Sales Page
         </TextBlock>
 
-        <TextBlock Grid.Column="0" Grid.Row="1">Date:</TextBlock>
+        <TextBlock Grid.Column="0" Grid.Row="1" Style="{StaticResource SubHeading}">Date:</TextBlock>
         <DatePicker x:Name="txtSaleDate" Grid.Column="1" Grid.Row="1" DisplayDate="2021-09-24" SelectedDateFormat="Long"></DatePicker>
 
-        <TextBlock Grid.Column="0" Grid.Row="2">Product:</TextBlock>
+        <TextBlock Grid.Column="0" Grid.Row="2" Style="{StaticResource SubHeading}">Product:</TextBlock>
         <ComboBox Name="cmxItemProduct" Margin="3,3,3,3" HorizontalAlignment="Stretch" Grid.Column="1" Grid.Row="2" >
 
         </ComboBox>
 
-        <TextBlock Grid.Column="0" Grid.Row="3">Quantity:</TextBlock>
+        <TextBlock Grid.Column="0" Grid.Row="3" Style="{StaticResource SubHeading}">Quantity:</TextBlock>
         <TextBox x:Name="txtItemQuantity" Grid.Column="1" Grid.Row="3"></TextBox>
 
         <Button x:Name ="btnItemAdd" Click="BtnItemAdd" Grid.Column="1" Grid.Row="4" Width="Auto">
@@ -47,7 +47,7 @@
             Add Edited Item
         </Button>
 
-        <TextBlock Grid.Column="0" Grid.Row="5">Item List:</TextBlock>
+        <TextBlock Grid.Column="0" Grid.Row="5" Style="{StaticResource SubHeading}">Item List:</TextBlock>
         <ListBox x:Name="txtItemList" MouseDoubleClick="TxtItemList_MouseDoubleClick" Grid.Column="1" Grid.Row="5"></ListBox>
 
         <Button x:Name ="btnSaleSubmit" Click="BtnSaleSubmit" Grid.Column="1" Grid.Row="6" Width="Auto">

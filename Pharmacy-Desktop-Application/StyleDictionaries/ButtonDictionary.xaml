@@ -16,7 +16,9 @@
 
         <Setter Property="Background" Value="#c1c2b2"></Setter>
         <Setter Property="Foreground" Value="Black"></Setter>
-        <Setter Property="BorderThickness" Value="1"></Setter>       
+        <Setter Property="BorderThickness" Value="1"></Setter>
+
+        
 
     </Style>
 
