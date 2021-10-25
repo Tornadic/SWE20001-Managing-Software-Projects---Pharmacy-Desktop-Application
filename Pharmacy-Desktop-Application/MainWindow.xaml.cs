@@ -28,11 +28,10 @@ namespace Pharmacy_Desktop_Application
             Main.Content = new HomePage(); // sets the homepage to be displayed when the application is open 
         }
 
-        private void BtnClickHome(object sender, RoutedEventArgs e)
+        private void ImgLogoClick(object sender, MouseEventArgs e)
         {
             Main.Content = new HomePage();
         }
-
 
         private void BtnClickPrediction(object sender, RoutedEventArgs e)
         {

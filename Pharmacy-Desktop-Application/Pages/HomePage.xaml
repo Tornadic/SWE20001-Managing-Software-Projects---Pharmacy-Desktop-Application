@@ -6,9 +6,9 @@
       xmlns:local="clr-namespace:Pharmacy_Desktop_Application"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="HomePage">
+      Title="HomePage" >
 
-    <Grid Background="White">
+    <Grid  >
         <!--Sets up the grid frame for our page-->
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
@@ -17,7 +17,7 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <TextBox Name="Content" Grid.Column="0" Grid.Row="0">
+        <TextBox Name="Content" Grid.Column="0" Grid.Row="0" Style="{StaticResource TransparentTextBox}" >
             This the home page and will include a pretty image and maybe even some CONTENT!!!!!
         </TextBox>
 

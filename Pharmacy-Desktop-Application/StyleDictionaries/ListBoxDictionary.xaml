@@ -1,0 +1,14 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:Pharmacy_Desktop_Application.StyleDictionaries">
+
+    <Style TargetType="ListBox">
+        <Setter Property="Height" Value="auto"/>
+    </Style>
+
+    <Style TargetType="ListBoxItem">
+        <Setter Property="Background" Value="#7cccf4"></Setter>
+
+    </Style>    
+    
+</ResourceDictionary>

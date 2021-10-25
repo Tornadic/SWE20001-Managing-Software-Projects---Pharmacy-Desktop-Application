@@ -4,14 +4,31 @@
              xmlns:local="clr-namespace:Pharmacy_Desktop_Application"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-        
-        <!--adds style to all buttons--> 
-        <Style TargetType="Button">
-            <Setter Property="Width" Value="90" />
-            <Setter Property="Margin" Value="10" />
-        </Style>
-        
-        
-        
+
+
+
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <!--Button Styles-->
+                <ResourceDictionary Source="StyleDictionaries/ButtonDictionary.xaml"/>
+
+                <!--Text Styles (TextBlock and TextBox)-->
+                <ResourceDictionary Source="StyleDictionaries/TextDictionary.xaml"/>
+
+                <!--ComboBox styles-->
+
+                <!--ListBox Styles-->
+                <ResourceDictionary Source="StyleDictionaries/ListBoxDictionary.xaml"/>
+
+                <!--Page Style-->
+                <ResourceDictionary Source="StyleDictionaries/PageDictionary.xaml"/>
+
+
+            </ResourceDictionary.MergedDictionaries>
+            
+        </ResourceDictionary>
+
+
+
     </Application.Resources>
 </Application>

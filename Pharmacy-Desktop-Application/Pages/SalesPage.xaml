@@ -8,7 +8,7 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="SalesPage">
 
-    <Grid Background="White">
+    <Grid>
         <!--Sets up the grid frame for our page-->
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>

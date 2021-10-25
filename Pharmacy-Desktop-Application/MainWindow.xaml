@@ -5,8 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Pharmacy_Desktop_Application"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Height="450" Width="800">
+
+    <Window.Resources>
+
+        <Style TargetType="Border" x:Key="RoundedButton">
+            <Setter Property="CornerRadius" Value="5"/>
+        </Style>
+
+
+    </Window.Resources>
+
+
+
+    <Grid Background="#2c333c">
 
         <!--Sets up the grid frame for our page-->
         <Grid.ColumnDefinitions>
@@ -20,32 +32,26 @@
 
         
         <!-- Navigation bar-->
-        <StackPanel HorizontalAlignment="Left" Grid.Column="0" Grid.Row="1">
+        <StackPanel HorizontalAlignment="Left" Grid.Column="0" Grid.ColumnSpan="1" Margin="0,0,0,0">
 
-            <TextBox Height="40">
-                Peoples Health Pharmacy
-            </TextBox>
-
-            <!--This Home button is here to make daniel.ryan21 happy and will be removed sprint 2... maybe-->
-            <Button x:Name="btnHome" Click="BtnClickHome">Dan's Button</Button>
-
+            <!--The Logo is also the home button-->
+            <Image Source="Images/logo.png" Height="100" x:Name="imgLogo" MouseDown="ImgLogoClick" Margin="0,-30,0,-25"></Image>
+           
             <!--product page for adding more products to the database-->
-            <Button x:Name="btnProduct" Click="BtnClickProduct">Product Page</Button>
+            <Button x:Name="btnProduct" Click="BtnClickProduct"> Product Page </Button>
 
             <!--add sales record page for adding sales records to the database-->
             <Button x:Name="btnSalePage" Click="BtnClickSalePage">Sales Page</Button>
-
-
             
             <!--display the weekly and monthly predictions of each product-->
             <Button x:Name="btnPrediction" Click="BtnClickPrediction">Predictions</Button>
-            
+
             <!--settings for usability, impletment in sprint 2-->
-            <Button x:Name="btnSettings" Click="BtnClickSettings">Settings</Button>
+            <Button x:Name="btnSettings" Click="BtnClickSettings" >Settings</Button>
         </StackPanel>
 
         <!--this Main frame is where the pages are displayed-->
-        <Frame x:Name="Main" NavigationUIVisibility="Hidden" Grid.Column="1" Grid.Row="1"/>
+        <Frame x:Name="Main" NavigationUIVisibility="Hidden" Grid.Column="1" Grid.Row="1"></Frame>
 
     </Grid>
 </Window>
