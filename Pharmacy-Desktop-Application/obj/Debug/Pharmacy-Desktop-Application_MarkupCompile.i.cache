@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\bedsoc\Source\Repos\Tornadic\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\Pharmacy-Desktop-Application\obj\Debug\
+C:\Users\Thiem Quyen\source\repos\Clone3\Pharmacy-Desktop-Application\obj\Debug\
 Pharmacy_Desktop_Application
 none
 false
 DEBUG;TRACE
-C:\Users\bedsoc\Source\Repos\Tornadic\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\Pharmacy-Desktop-Application\App.xaml
-13-2117024619
+C:\Users\Thiem Quyen\source\repos\Clone3\Pharmacy-Desktop-Application\App.xaml
+14167249355
 
-27-5644211
-2341688252304
-Pages\ChartPage.xaml;Pages\EditSalesPage.xaml;MainWindow.xaml;Pages\DisplaySalesPage.xaml;Pages\EditProductPage.xaml;Pages\HomePage.xaml;Pages\PredictionPage.xaml;Pages\ProductPage.xaml;Pages\LowStockPage.xaml;Pages\RecordPage.xaml;Pages\SalesPage.xaml;Pages\SettingsPage.xaml;Pages\ProductSearchPage.xaml;
+28698466837
+234-2033442230
+Pages\ChartPage.xaml;Pages\EditSalesPage.xaml;MainWindow.xaml;Pages\DisplaySalesPage.xaml;Pages\EditProductPage.xaml;Pages\HomePage.xaml;Pages\RevenueByItemPage.xaml;Pages\PredictionPage.xaml;Pages\ProductPage.xaml;Pages\LowStockPage.xaml;Pages\RecordPage.xaml;Pages\SalesPage.xaml;Pages\SettingsPage.xaml;Pages\ProductSearchPage.xaml;
 
-True
+False
 

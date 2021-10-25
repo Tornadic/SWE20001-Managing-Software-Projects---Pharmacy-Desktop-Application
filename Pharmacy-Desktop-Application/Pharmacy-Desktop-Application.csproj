@@ -83,6 +83,9 @@
     <Compile Include="Pages\HomePage.xaml.cs">
       <DependentUpon>HomePage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\RevenueByItemPage.xaml.cs">
+      <DependentUpon>RevenueByItemPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\PredictionPage.xaml.cs">
       <DependentUpon>PredictionPage.xaml</DependentUpon>
     </Compile>
@@ -139,6 +142,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Pages\HomePage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\RevenueByItemPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

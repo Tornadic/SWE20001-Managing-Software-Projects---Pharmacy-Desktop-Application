@@ -58,7 +58,11 @@ namespace Pharmacy_Desktop_Application
         {
             NavigationService.Navigate(new SalesPage());
         }
-
+        //opens new page to display rev by item
+        private void BtnClickDisplayRevByItem(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new RevenueByItemPage());
+        }
         private void CreateCSV()
         {
             InitializeComponent();

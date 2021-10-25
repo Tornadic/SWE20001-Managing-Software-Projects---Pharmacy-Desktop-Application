@@ -316,21 +316,6 @@ C:\Users\Thiem Quyen\source\repos\Clone3\Pharmacy-Desktop-Application\bin\Debug\
 C:\Users\Thiem Quyen\source\repos\Clone3\Pharmacy-Desktop-Application\bin\Debug\Ubiety.Dns.Core.dll
 C:\Users\Thiem Quyen\source\repos\Clone3\Pharmacy-Desktop-Application\bin\Debug\Zstandard.Net.dll
 C:\Users\Thiem Quyen\source\repos\Clone3\Pharmacy-Desktop-Application\bin\Debug\Google.Protobuf.pdb
-C:\Users\Thiem Quyen\source\repos\Clone3\Pharmacy-Desktop-Application\bin\Debug\Google.Protobuf.xml
-C:\Users\Thiem Quyen\source\repos\Clone3\Pharmacy-Desktop-Application\bin\Debug\K4os.Compression.LZ4.xml
-C:\Users\Thiem Quyen\source\repos\Clone3\Pharmacy-Desktop-Application\bin\Debug\K4os.Compression.LZ4.Streams.xml
-C:\Users\Thiem Quyen\source\repos\Clone3\Pharmacy-Desktop-Application\bin\Debug\K4os.Hash.xxHash.xml
-C:\Users\Thiem Quyen\source\repos\Clone3\Pharmacy-Desktop-Application\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
-C:\Users\Thiem Quyen\source\repos\Clone3\Pharmacy-Desktop-Application\bin\Debug\Microsoft.Extensions.Logging.xml
-C:\Users\Thiem Quyen\source\repos\Clone3\Pharmacy-Desktop-Application\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
-C:\Users\Thiem Quyen\source\repos\Clone3\Pharmacy-Desktop-Application\bin\Debug\MySql.Data.xml
-C:\Users\Thiem Quyen\source\repos\Clone3\Pharmacy-Desktop-Application\bin\Debug\System.Buffers.xml
-C:\Users\Thiem Quyen\source\repos\Clone3\Pharmacy-Desktop-Application\bin\Debug\System.Collections.Immutable.xml
-C:\Users\Thiem Quyen\source\repos\Clone3\Pharmacy-Desktop-Application\bin\Debug\System.Diagnostics.DiagnosticSource.xml
-C:\Users\Thiem Quyen\source\repos\Clone3\Pharmacy-Desktop-Application\bin\Debug\System.Memory.xml
-C:\Users\Thiem Quyen\source\repos\Clone3\Pharmacy-Desktop-Application\bin\Debug\System.Numerics.Vectors.xml
-C:\Users\Thiem Quyen\source\repos\Clone3\Pharmacy-Desktop-Application\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-C:\Users\Thiem Quyen\source\repos\Clone3\Pharmacy-Desktop-Application\bin\Debug\System.ValueTuple.xml
 C:\Users\Thiem Quyen\source\repos\Clone3\Pharmacy-Desktop-Application\obj\Debug\Pharmacy-Desktop-Application.csprojAssemblyReference.cache
 C:\Users\Thiem Quyen\source\repos\Clone3\Pharmacy-Desktop-Application\obj\Debug\Pages\EditSalesPage.g.cs
 C:\Users\Thiem Quyen\source\repos\Clone3\Pharmacy-Desktop-Application\obj\Debug\MainWindow.g.cs
@@ -442,3 +427,14 @@ C:\Users\bedsoc\Source\Repos\Tornadic\SWE20001-Managing-Software-Projects---Phar
 C:\Users\bedsoc\Source\Repos\Tornadic\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\Pharmacy-Desktop-Application\obj\Debug\Pharmacy-Desktop-Application.exe
 C:\Users\bedsoc\Source\Repos\Tornadic\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\Pharmacy-Desktop-Application\obj\Debug\Pharmacy-Desktop-Application.pdb
 C:\Users\bedsoc\Source\Repos\Tornadic\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\Pharmacy-Desktop-Application\obj\Debug\Pharmacy-Desktop-Application.csprojAssemblyReference.cache
+C:\Users\Thiem Quyen\source\repos\Clone3\Pharmacy-Desktop-Application\bin\Debug\Microsoft.Toolkit.Uwp.Notifications.dll
+C:\Users\Thiem Quyen\source\repos\Clone3\Pharmacy-Desktop-Application\bin\Debug\Microsoft.Toolkit.Uwp.Notifications.pdb
+C:\Users\Thiem Quyen\source\repos\Clone3\Pharmacy-Desktop-Application\bin\Debug\Syncfusion.Licensing.dll
+C:\Users\Thiem Quyen\source\repos\Clone3\Pharmacy-Desktop-Application\bin\Debug\Syncfusion.SfChart.WPF.dll
+C:\Users\Thiem Quyen\source\repos\Clone3\Pharmacy-Desktop-Application\obj\Debug\Pages\ChartPage.g.cs
+C:\Users\Thiem Quyen\source\repos\Clone3\Pharmacy-Desktop-Application\obj\Debug\Pages\LowStockPage.g.cs
+C:\Users\Thiem Quyen\source\repos\Clone3\Pharmacy-Desktop-Application\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Thiem Quyen\source\repos\Clone3\Pharmacy-Desktop-Application\obj\Debug\Pages\ChartPage.baml
+C:\Users\Thiem Quyen\source\repos\Clone3\Pharmacy-Desktop-Application\obj\Debug\Pages\LowStockPage.baml
+C:\Users\Thiem Quyen\source\repos\Clone3\Pharmacy-Desktop-Application\obj\Debug\Pages\RevenueByItemPage.g.cs
+C:\Users\Thiem Quyen\source\repos\Clone3\Pharmacy-Desktop-Application\obj\Debug\Pages\RevenueByItemPage.baml
