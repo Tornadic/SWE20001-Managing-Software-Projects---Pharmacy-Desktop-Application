@@ -8,7 +8,7 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="ProductPage">
 
-    <Grid Background="White">
+    <Grid>
         <!--Sets up the grid frame for our page-->
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
@@ -21,23 +21,23 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>       
+        </Grid.RowDefinitions>
 
-        
-        <TextBlock Name="Content" Grid.Column="0" Grid.Row="0">
-            This the Product Page
+
+        <TextBlock Name="Content" Grid.Column="0" Grid.Row="0" Style="{StaticResource Heading}">
+            Product Page
         </TextBlock>
-		
-        <TextBlock Grid.Column="0" Grid.Row="1">Product SKU: </TextBlock>
+
+        <TextBlock Grid.Column="0" Grid.Row="1" Style="{StaticResource SubHeading}">Product SKU: </TextBlock>
         <TextBox x:Name="txtProdSKU" Grid.Column="1" Grid.Row="1"></TextBox>
 
-        <TextBlock Grid.Column="0" Grid.Row="2">Product Name:</TextBlock>
+        <TextBlock Grid.Column="0" Grid.Row="2" Style="{StaticResource SubHeading}">Product Name:</TextBlock>
         <TextBox x:Name="txtProdName" Grid.Column="1" Grid.Row="2"></TextBox>
 
-        <TextBlock Grid.Column="0" Grid.Row="3">Product Stock:</TextBlock>
+        <TextBlock Grid.Column="0" Grid.Row="3" Style="{StaticResource SubHeading}">Product Stock:</TextBlock>
         <TextBox x:Name="txtProdStock" Grid.Column="1" Grid.Row="3"></TextBox>
 
-        <TextBlock Grid.Column="0" Grid.Row="4">Product Price:</TextBlock>
+        <TextBlock Grid.Column="0" Grid.Row="4" Style="{StaticResource SubHeading}">Product Price:</TextBlock>
         <TextBox x:Name="txtProdPrice" Grid.Column="1" Grid.Row="4"></TextBox>
 
 

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Thiem Quyen\source\repos\Clone3\Pharmacy-Desktop-Application\obj\Debug\
+C:\Users\willa\source\repos\Tornadic\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\Pharmacy-Desktop-Application\obj\Debug\
 Pharmacy_Desktop_Application
 none
 false
 DEBUG;TRACE
-C:\Users\Thiem Quyen\source\repos\Clone3\Pharmacy-Desktop-Application\App.xaml
-14167249355
+C:\Users\willa\source\repos\Tornadic\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\Pharmacy-Desktop-Application\App.xaml
+22-953909059
 
-28698466837
-234-2033442230
-Pages\ChartPage.xaml;Pages\EditSalesPage.xaml;MainWindow.xaml;Pages\DisplaySalesPage.xaml;Pages\EditProductPage.xaml;Pages\HomePage.xaml;Pages\RevenueByItemPage.xaml;Pages\PredictionPage.xaml;Pages\ProductPage.xaml;Pages\LowStockPage.xaml;Pages\RecordPage.xaml;Pages\SalesPage.xaml;Pages\SettingsPage.xaml;Pages\ProductSearchPage.xaml;
+271540826204
+2341476876054
+ButtonDictionary.xaml;ListBoxDictionary.xaml;PageDictionary.xaml;Pages\ChartPage.xaml;Pages\EditSalesPage.xaml;MainWindow.xaml;Pages\DisplaySalesPage.xaml;Pages\EditProductPage.xaml;Pages\HomePage.xaml;Pages\RevenueByItemPage.xaml;Pages\PredictionPage.xaml;Pages\ProductPage.xaml;Pages\LowStockPage.xaml;Pages\RecordPage.xaml;Pages\SalesPage.xaml;Pages\SettingsPage.xaml;Pages\ProductSearchPage.xaml;StyleDictionaries\ButtonDictionary.xaml;StyleDictionaries\ListBoxDictionary.xaml;StyleDictionaries\PageDictionary.xaml;StyleDictionaries\TextDictionary.xaml;TextDictionary.xaml;
 
-True
+False
 

@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Thiem Quyen\\source\\repos\\Clone3\\Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application.csproj": {}
+    "C:\\Users\\willa\\source\\repos\\Tornadic\\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Thiem Quyen\\source\\repos\\Clone3\\Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application.csproj": {
+    "C:\\Users\\willa\\source\\repos\\Tornadic\\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Thiem Quyen\\source\\repos\\Clone3\\Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application.csproj",
+        "projectUniqueName": "C:\\Users\\willa\\source\\repos\\Tornadic\\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application.csproj",
         "projectName": "Pharmacy-Desktop-Application",
-        "projectPath": "C:\\Users\\Thiem Quyen\\source\\repos\\Clone3\\Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application.csproj",
-        "packagesPath": "C:\\Users\\Thiem Quyen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Thiem Quyen\\source\\repos\\Clone3\\Pharmacy-Desktop-Application\\obj\\",
+        "projectPath": "C:\\Users\\willa\\source\\repos\\Tornadic\\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application.csproj",
+        "packagesPath": "C:\\Users\\willa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\willa\\source\\repos\\Tornadic\\SWE20001-Managing-Software-Projects---Pharmacy-Desktop-Application\\Pharmacy-Desktop-Application\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
-          "C:\\Users\\Thiem Quyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\willa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

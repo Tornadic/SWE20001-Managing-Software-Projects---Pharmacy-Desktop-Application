@@ -8,45 +8,46 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="EditProductPage">
 
-    <Grid Background="White">
+    <Grid >
         <!--Sets up the grid frame for our page-->
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>       
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="5*"/>
+        </Grid.RowDefinitions>
 
-        
-        <TextBlock Name="Content" Grid.Column="0" Grid.Row="0">
-            This the Product View/Edit Page
+
+        <TextBlock Name="Content" Grid.Column="0" Grid.Row="0" Style="{StaticResource Heading}">
+            Product View/Edit Page
         </TextBlock>
 
 
 
-        <TextBlock Grid.Column="0" Grid.Row="1">Product SKU: </TextBlock>
-        <TextBox x:Name="txtProdSKU" Grid.Column="1" Grid.Row="1" IsEnabled="False"/>
+        <TextBlock Grid.Column="0" Grid.Row="1" Grid.RowSpan="2" Style="{StaticResource SubHeading}">Product SKU:</TextBlock>
+        <TextBox x:Name="txtProdSKU" Grid.Column="1" Grid.Row="1" IsEnabled="False" Grid.RowSpan="2"/>
 
-        <TextBlock Grid.Column="0" Grid.Row="2">Product Name:</TextBlock>
-        <TextBox x:Name="txtProdName" Grid.Column="1" Grid.Row="2"></TextBox>
+        <TextBlock Grid.Column="0" Grid.Row="3" Style="{StaticResource SubHeading}">Product Name:</TextBlock>
+        <TextBox x:Name="txtProdName" Grid.Column="1" Grid.Row="3"></TextBox>
 
-        <TextBlock Grid.Column="0" Grid.Row="3">Product Stock:</TextBlock>
-        <TextBox x:Name="txtProdStock" Grid.Column="1" Grid.Row="3"></TextBox>
+        <TextBlock Grid.Column="0" Grid.Row="4" Style="{StaticResource SubHeading}">Product Stock:</TextBlock>
+        <TextBox x:Name="txtProdStock" Grid.Column="1" Grid.Row="4"></TextBox>
 
-        <TextBlock Grid.Column="0" Grid.Row="4">Product Price:</TextBlock>
-        <TextBox x:Name="txtProdPrice" Grid.Column="1" Grid.Row="4"></TextBox>
+        <TextBlock Grid.Column="0" Grid.Row="5" Style="{StaticResource SubHeading}">Product Price:</TextBlock>
+        <TextBox x:Name="txtProdPrice" Grid.Column="1" Grid.Row="5"></TextBox>
 
 
-        <Button x:Name ="btnProductSubmit" Click="BtnClickSubmit" Grid.Column="1" Grid.Row="5" Width="Auto" Margin="10">
+        <Button x:Name ="btnProductSubmit" Click="BtnClickSubmit" Grid.Column="1" Grid.Row="6" Width="Auto" Margin="10">
             Update Product in DataBase
         </Button>
-        
+
 
     </Grid>
 </Page>

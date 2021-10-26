@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Pharmacy_Desktop_Application"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Height="450" Width="800"
+        Icon="Images/phpicon.png">
+    <Grid Background="#2c333c">
 
         <!--Sets up the grid frame for our page-->
         <Grid.ColumnDefinitions>
@@ -22,12 +23,8 @@
         <!-- Navigation bar-->
         <StackPanel HorizontalAlignment="Left" Grid.Column="0" Grid.Row="1">
 
-            <TextBox Height="40">
-                Peoples Health Pharmacy
-            </TextBox>
-
-            <!--This Home button is here to make daniel.ryan21 happy and will be removed sprint 2... maybe-->
-            <Button x:Name="btnHome" Click="BtnClickHome">Dan's Button</Button>
+            <!--The Logo is also the home button-->
+            <Image Source="Images/logo.png" Height="100" x:Name="imgLogo" MouseDown="ImgLogoClick" Margin="0,-30,0,-25"></Image>
 
             <!--product page for adding more products to the database-->
             <Button x:Name="btnProduct" Click="BtnClickProduct">Product Page</Button>

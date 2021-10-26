@@ -30,7 +30,7 @@ namespace Pharmacy_Desktop_Application
 
         }
 
-        private void BtnClickHome(object sender, RoutedEventArgs e)
+        private void ImgLogoClick(object sender, MouseEventArgs e)
         {
             Main.Content = new HomePage();
         }

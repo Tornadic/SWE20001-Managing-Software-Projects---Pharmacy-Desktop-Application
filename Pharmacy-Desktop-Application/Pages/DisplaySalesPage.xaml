@@ -8,7 +8,7 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="ProductSearchPage">
 
-    <Grid Background="White">
+    <Grid >
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
@@ -17,7 +17,6 @@
         </Grid.RowDefinitions>
         <StackPanel>
             <Button x:Name="btnAddSalesRecord" Click="BtnClickAddSalesRecord">Add Sales Record</Button>
-            <Button x:Name="btnDisplayRevByItem" Click="BtnClickDisplayRevByItem">Display Revenue by Item</Button>
             <ListBox x:Name="lsbSalesRecord" MouseDoubleClick="LsbSalesRecord_MouseDoubleClick"/>
         </StackPanel>
     </Grid>
