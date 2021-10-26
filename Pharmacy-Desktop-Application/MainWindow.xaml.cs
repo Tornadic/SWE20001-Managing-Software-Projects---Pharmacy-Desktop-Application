@@ -41,10 +41,6 @@ namespace Pharmacy_Desktop_Application
             Main.Content = new PredictionPage();
         }
 
-        private void BtnClickSettings(object sender, RoutedEventArgs e)
-        {
-            Main.Content = new SettingsPage();
-        }
 
         // Product Page
         private void BtnClickProduct(object sender, RoutedEventArgs e)

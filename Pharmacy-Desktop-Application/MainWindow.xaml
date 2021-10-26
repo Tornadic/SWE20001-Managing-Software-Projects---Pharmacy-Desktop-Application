@@ -40,8 +40,6 @@
             <!--button for chart page to view last months sales by units-->
             <Button x:Name="btnChart" Click="BtnChart">Sales Chart</Button>
 
-            <!--settings for usability, impletment in sprint 2-->
-            <Button x:Name="btnSettings" Click="BtnClickSettings">Settings</Button>
         </StackPanel>
 
         <!--this Main frame is where the pages are displayed-->

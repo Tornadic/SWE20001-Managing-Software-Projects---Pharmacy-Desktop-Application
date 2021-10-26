@@ -17,8 +17,8 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <TextBox Name="Content" Grid.Column="0" Grid.Row="0" Style="{StaticResource TransparentTextBox}" >
-            This the home page and will include a pretty image and maybe even some CONTENT!!!!!
+        <TextBox Name="Content" Grid.Column="0" Grid.Row="0" Style="{StaticResource TransparentTextBox}" FontSize="25" TextAlignment="Center">
+            Welcome to People Health Pharmacy
         </TextBox>
 
 
