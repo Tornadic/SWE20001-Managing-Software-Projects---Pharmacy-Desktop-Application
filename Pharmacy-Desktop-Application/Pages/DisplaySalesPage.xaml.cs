@@ -105,5 +105,10 @@ namespace Pharmacy_Desktop_Application
                 }
             }
         }
+
+        private void BtnClickCSV(object sender, RoutedEventArgs e)
+        {
+            CreateCSV(); 
+        }
     }
 }

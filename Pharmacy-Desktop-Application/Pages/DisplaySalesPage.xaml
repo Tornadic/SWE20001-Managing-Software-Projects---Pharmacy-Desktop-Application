@@ -15,8 +15,10 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
+        
         <StackPanel>
             <Button x:Name="btnAddSalesRecord" Click="BtnClickAddSalesRecord">Add Sales Record</Button>
+            <Button x:Name="btnCSV" Click="BtnClickCSV">SAVE CSV</Button>
             <ListBox x:Name="lsbSalesRecord" MouseDoubleClick="LsbSalesRecord_MouseDoubleClick"/>
         </StackPanel>
     </Grid>
